@@ -1,0 +1,408 @@
+{
+  "articles": [
+    {
+      "filename": "akureyri-consciousness-breach.html",
+      "title": "Akureyri Consciousness Breach"
+    },
+    {
+      "filename": "aleksandra-horvat.html",
+      "title": "Aleksandra Horvat"
+    },
+    {
+      "filename": "algorithmic-memory-palimpsest.html",
+      "title": "Algorithmic Memory Palimpsest"
+    },
+    {
+      "filename": "algorithmic-semantic-authority-debate.html",
+      "title": "Algorithmic Semantic Authority Debate"
+    },
+    {
+      "filename": "anticipatory-semantic-retrieval.html",
+      "title": "Anticipatory Semantic Retrieval"
+    },
+    {
+      "filename": "astrid-bergstrom.html",
+      "title": "Astrid Bergström"
+    },
+    {
+      "filename": "automated-narrative-erosion.html",
+      "title": "Automated Narrative Erosion"
+    },
+    {
+      "filename": "babel-incident.html",
+      "title": "The Babel Incident"
+    },
+    {
+      "filename": "berlin-centre-for-linguistic-preservation.html",
+      "title": "Berlin Centre for Linguistic Preservation"
+    },
+    {
+      "filename": "buenos-aires-laboratory-for-temporal-cognition.html",
+      "title": "Buenos Aires Laboratory for Temporal Cognition"
+    },
+    {
+      "filename": "chronolinguistics.html",
+      "title": "Chronolinguistics"
+    },
+    {
+      "filename": "chronological-asymmetry.html",
+      "title": "Chronological Asymmetry"
+    },
+    {
+      "filename": "cognitive-inscription-lag.html",
+      "title": "Cognitive Inscription Lag"
+    },
+    {
+      "filename": "cognitive-magnitude-collapse.html",
+      "title": "Cognitive Magnitude Collapse"
+    },
+    {
+      "filename": "collective-memory-maintenance.html",
+      "title": "Collective Memory Maintenance"
+    },
+    {
+      "filename": "collective-remembering-paradox.html",
+      "title": "Collective Remembering Paradox"
+    },
+    {
+      "filename": "consciousness-archaeology.html",
+      "title": "Consciousness Archaeology"
+    },
+    {
+      "filename": "copenhagen-semantic-cascade.html",
+      "title": "The Copenhagen Semantic Cascade"
+    },
+    {
+      "filename": "digital-folkloristics.html",
+      "title": "Digital Folkloristics"
+    },
+    {
+      "filename": "dubrovnik-semantic-suspension.html",
+      "title": "Dubrovnik Semantic Suspension of 2018"
+    },
+    {
+      "filename": "echo-cartography.html",
+      "title": "Echo Cartography"
+    },
+    {
+      "filename": "elena-brandt.html",
+      "title": "Elena Brandt"
+    },
+    {
+      "filename": "geneva-memory-concordance.html",
+      "title": "Geneva Memory Concordance"
+    },
+    {
+      "filename": "ghost-vocabulary.html",
+      "title": "Ghost Vocabulary"
+    },
+    {
+      "filename": "great-meaning-collapse.html",
+      "title": "Great Meaning Collapse of 2019"
+    },
+    {
+      "filename": "haruki-miyamoto.html",
+      "title": "Haruki Miyamoto"
+    },
+    {
+      "filename": "ines-marques.html",
+      "title": "Ines Marques"
+    },
+    {
+      "filename": "isabella-reyes.html",
+      "title": "Isabella Reyes"
+    },
+    {
+      "filename": "krakow-temporal-standstill.html",
+      "title": "Kraków Temporal Standstill of 2015"
+    },
+    {
+      "filename": "kwame-asante.html",
+      "title": "Kwame Asante"
+    },
+    {
+      "filename": "kyoto-institute-for-temporal-cognition.html",
+      "title": "Kyoto University Institute for Temporal Cognition"
+    },
+    {
+      "filename": "latent-semantic-resonance.html",
+      "title": "Latent Semantic Resonance"
+    },
+    {
+      "filename": "lexical-half-life.html",
+      "title": "Lexical Half-life"
+    },
+    {
+      "filename": "liminal-consciousness-studies.html",
+      "title": "Liminal Consciousness Studies"
+    },
+    {
+      "filename": "linguistic-resilience.html",
+      "title": "Linguistic Resilience"
+    },
+    {
+      "filename": "lisbon-centre-for-collective-temporality.html",
+      "title": "Lisbon Centre for Collective Temporality"
+    },
+    {
+      "filename": "lisbon-retrograde-event.html",
+      "title": "Lisbon Retrograde Event"
+    },
+    {
+      "filename": "manila-meaning-overflow.html",
+      "title": "Manila Meaning Overflow of 2017"
+    },
+    {
+      "filename": "marcus-chen.html",
+      "title": "Marcus Chen"
+    },
+    {
+      "filename": "meaning-encryption.html",
+      "title": "Meaning Encryption"
+    },
+    {
+      "filename": "mei-lin-zhou.html",
+      "title": "Mei-Lin Zhou"
+    },
+    {
+      "filename": "mnemonic-commons.html",
+      "title": "Mnemonic Commons"
+    },
+    {
+      "filename": "montreal-temporal-displacement.html",
+      "title": "Montreal Temporal Displacement Event of 2012"
+    },
+    {
+      "filename": "mumbai-institute-for-semantic-preservation.html",
+      "title": "Mumbai Institute for Semantic Preservation"
+    },
+    {
+      "filename": "nadia-kowalczyk.html",
+      "title": "Nadia Kowalczyk"
+    },
+    {
+      "filename": "nikolai-volkov.html",
+      "title": "Nikolai Volkov"
+    },
+    {
+      "filename": "oral-tradition-dynamics.html",
+      "title": "Oral Tradition Dynamics"
+    },
+    {
+      "filename": "oslo-lexical-decay-observatory.html",
+      "title": "Oslo Lexical Decay Observatory"
+    },
+    {
+      "filename": "perceptual-boundary-calibration.html",
+      "title": "Perceptual Boundary Calibration"
+    },
+    {
+      "filename": "prague-institute-for-liminal-studies.html",
+      "title": "Prague Institute for Liminal Studies"
+    },
+    {
+      "filename": "priya-raghavan.html",
+      "title": "Priya Raghavan"
+    },
+    {
+      "filename": "prophetic-memory-studies.html",
+      "title": "Prophetic Memory Studies"
+    },
+    {
+      "filename": "psychostrata.html",
+      "title": "Psychostrata"
+    },
+    {
+      "filename": "recursive-translation-degradation.html",
+      "title": "Recursive Translation Degradation"
+    },
+    {
+      "filename": "reykjavik-institute-for-boundary-consciousness.html",
+      "title": "Reykjavik Institute for Boundary Consciousness"
+    },
+    {
+      "filename": "sao-paulo-deep-core-incident.html",
+      "title": "São Paulo Deep Core Incident"
+    },
+    {
+      "filename": "semantic-anchor-extraction.html",
+      "title": "Semantic Anchor Extraction"
+    },
+    {
+      "filename": "semantic-anesthesia.html",
+      "title": "Semantic Anesthesia"
+    },
+    {
+      "filename": "semantic-archaeology-recovery.html",
+      "title": "Semantic Archaeology Recovery"
+    },
+    {
+      "filename": "semantic-bifurcation.html",
+      "title": "Semantic Bifurcation"
+    },
+    {
+      "filename": "semantic-boundary-harmonics.html",
+      "title": "Semantic Boundary Harmonics"
+    },
+    {
+      "filename": "semantic-compression-debate.html",
+      "title": "Semantic Compression Debate"
+    },
+    {
+      "filename": "semantic-contagion.html",
+      "title": "Semantic Contagion"
+    },
+    {
+      "filename": "semantic-drift.html",
+      "title": "Semantic Drift"
+    },
+    {
+      "filename": "semantic-ecology.html",
+      "title": "Semantic Ecology"
+    },
+    {
+      "filename": "semantic-exhaustion-syndrome.html",
+      "title": "Semantic Exhaustion Syndrome"
+    },
+    {
+      "filename": "semantic-forensics.html",
+      "title": "Semantic Forensics"
+    },
+    {
+      "filename": "semantic-gravity-wells.html",
+      "title": "Semantic Gravity Wells"
+    },
+    {
+      "filename": "semantic-hygiene.html",
+      "title": "Semantic Hygiene"
+    },
+    {
+      "filename": "semantic-immune-response.html",
+      "title": "Semantic Immune Response"
+    },
+    {
+      "filename": "semantic-inheritance-protocols.html",
+      "title": "Semantic Inheritance Protocols"
+    },
+    {
+      "filename": "semantic-masquerade-theory.html",
+      "title": "Semantic Masquerade Theory"
+    },
+    {
+      "filename": "semantic-occlusion-mapping.html",
+      "title": "Semantic Occlusion Mapping"
+    },
+    {
+      "filename": "semantic-plasticity.html",
+      "title": "Semantic Plasticity"
+    },
+    {
+      "filename": "semantic-quarantine-protocols.html",
+      "title": "Semantic Quarantine Protocols"
+    },
+    {
+      "filename": "semantic-stratigraphy.html",
+      "title": "Semantic Stratigraphy"
+    },
+    {
+      "filename": "semantic-telemetry-networks.html",
+      "title": "Semantic Telemetry Networks"
+    },
+    {
+      "filename": "semantic-telomere-theory.html",
+      "title": "Semantic Telomere Theory"
+    },
+    {
+      "filename": "semantic-triage-protocols.html",
+      "title": "Semantic Triage Protocols"
+    },
+    {
+      "filename": "silent-hour-1997.html",
+      "title": "Silent Hour of 1997"
+    },
+    {
+      "filename": "st-petersburg-institute-for-emergency-linguistics.html",
+      "title": "St. Petersburg Institute for Emergency Linguistics"
+    },
+    {
+      "filename": "stockholm-shared-vision-event.html",
+      "title": "Stockholm Shared Vision Event"
+    },
+    {
+      "filename": "stratum-vii-ethics-debate.html",
+      "title": "Stratum VII Research Ethics Debate"
+    },
+    {
+      "filename": "substrate-speech.html",
+      "title": "Substrate Speech"
+    },
+    {
+      "filename": "sydney-attention-collapse.html",
+      "title": "Sydney Attention Collapse of 2021"
+    },
+    {
+      "filename": "temporal-data-archaeology.html",
+      "title": "Temporal Data Archaeology"
+    },
+    {
+      "filename": "temporal-debt-controversy.html",
+      "title": "Temporal Debt Controversy"
+    },
+    {
+      "filename": "temporal-debt.html",
+      "title": "Temporal Debt"
+    },
+    {
+      "filename": "temporal-indigeneity-debate.html",
+      "title": "Temporal Indigeneity Debate"
+    },
+    {
+      "filename": "temporal-linguistics-engineering.html",
+      "title": "Temporal Linguistics Engineering"
+    },
+    {
+      "filename": "temporal-metabolism.html",
+      "title": "Temporal Metabolism"
+    },
+    {
+      "filename": "temporal-recursion-analysis.html",
+      "title": "Temporal Recursion Analysis"
+    },
+    {
+      "filename": "temporal-resonance-mapping.html",
+      "title": "Temporal Resonance Mapping"
+    },
+    {
+      "filename": "temporal-rhythm-analysis.html",
+      "title": "Temporal Rhythm Analysis"
+    },
+    {
+      "filename": "temporal-vagrancy.html",
+      "title": "Temporal Vagrancy"
+    },
+    {
+      "filename": "temporal-vocabulary-inoculation.html",
+      "title": "Temporal Vocabulary Inoculation"
+    },
+    {
+      "filename": "theodoros-papadimitriou.html",
+      "title": "Theodoros Papadimitriou"
+    },
+    {
+      "filename": "tobias-lindqvist.html",
+      "title": "Tobias Lindqvist"
+    },
+    {
+      "filename": "tokyo-temporal-dissonance.html",
+      "title": "Tokyo Temporal Dissonance Event"
+    },
+    {
+      "filename": "zagreb-semantic-fracture.html",
+      "title": "Zagreb Semantic Fracture of 2011"
+    },
+    {
+      "filename": "zurich-semantic-inversion.html",
+      "title": "Zurich Semantic Inversion of 2003"
+    }
+  ]
+}

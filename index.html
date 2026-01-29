@@ -4,9 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Not-Wikipedia - Wikipedia</title>
-    <link rel="stylesheet" href="styles">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    <header class="wiki-header">
+        <div class="wiki-header-left">
+            <a href="index.html" class="wiki-logo">Not-Wikipedia</a>
+        </div>
+        <div class="search-container">
+            <input type="search" id="wiki-search" placeholder="Search articles... (Ctrl+K)" autocomplete="off">
+            <div id="search-results"></div>
+        </div>
+        <nav class="wiki-nav-buttons">
+            <a href="categories/all.html" class="wiki-nav-btn">All Articles</a>
+            <button id="random-article-btn" class="wiki-nav-btn">Random</button>
+        </nav>
+    </header>
 
     <div id="content">
         <h1 id="firstHeading">Not-Wikipedia</h1>
@@ -82,59 +96,59 @@
             <li><a href="/wiki/Lorem_ipsum">Lorem ipsum</a></li>
             <li><a href="/wiki/Mockup">Mockup</a></li>
             <li><a href="/wiki/Simulation_hypothesis">Simulation hypothesis</a></li>
-            <li><a href="chronolinguistics.html">Chronolinguistics</a></li>
-            <li><a href="chronological-asymmetry.html">Chronological Asymmetry</a></li>
-            <li><a href="collective-memory-maintenance.html">Collective Memory Maintenance</a></li>
-            <li><a href="consciousness-archaeology.html">Consciousness Archaeology</a></li>
-            <li><a href="echo-cartography.html">Echo Cartography</a></li>
-            <li><a href="edinburgh-institute-for-temporal-studies.html">Edinburgh Institute for Temporal Studies</a></li>
-            <li><a href="ghost-vocabulary.html">Ghost Vocabulary</a></li>
-            <li><a href="great-meaning-collapse.html">Great Meaning Collapse of 2019</a></li>
-            <li><a href="krakow-temporal-standstill.html">Kraków Temporal Standstill of 2015</a></li>
-            <li><a href="lexical-half-life.html">Lexical Half-life</a></li>
-            <li><a href="linguistic-resilience.html">Linguistic Resilience</a></li>
-            <li><a href="lisbon-centre-for-collective-temporality.html">Lisbon Centre for Collective Temporality</a></li>
-            <li><a href="lisbon-retrograde-event.html">Lisbon Retrograde Event</a></li>
-            <li><a href="marcus-chen.html">Marcus Chen</a></li>
-            <li><a href="meaning-encryption.html">Meaning Encryption</a></li>
-            <li><a href="mnemonic-commons.html">Mnemonic Commons</a></li>
-            <li><a href="nadia-kowalczyk.html">Nadia Kowalczyk</a></li>
-            <li><a href="oslo-lexical-decay-observatory.html">Oslo Lexical Decay Observatory</a></li>
-            <li><a href="prague-institute-for-liminal-studies.html">Prague Institute for Liminal Studies</a></li>
-            <li><a href="psychostrata.html">Psychostrata</a></li>
-            <li><a href="semantic-drift.html">Semantic Drift</a></li>
-            <li><a href="semantic-archaeology-recovery.html">Semantic Archaeology Recovery</a></li>
-            <li><a href="semantic-hygiene.html">Semantic Hygiene</a></li>
-            <li><a href="semantic-immune-systems.html">Semantic Immune Systems</a></li>
-            <li><a href="semantic-stratigraphy.html">Semantic Stratigraphy</a></li>
-            <li><a href="silent-hour-1997.html">Silent Hour of 1997</a></li>
-            <li><a href="st-petersburg-institute-for-emergency-linguistics.html">St. Petersburg Institute for Emergency Linguistics</a></li>
-            <li><a href="stratum-vii-ethics-debate.html">Stratum VII Research Ethics Debate</a></li>
-            <li><a href="temporal-debt.html">Temporal Debt</a></li>
-            <li><a href="temporal-data-archaeology.html">Temporal Data Archaeology</a></li>
-            <li><a href="temporal-linguistics-engineering.html">Temporal Linguistics Engineering</a></li>
-            <li><a href="tokyo-temporal-dissonance.html">Tokyo Temporal Dissonance Event</a></li>
-            <li><a href="babel-incident.html">The Babel Incident</a></li>
-            <li><a href="buenos-aires-laboratory-for-temporal-cognition.html">Buenos Aires Laboratory for Temporal Cognition</a></li>
-            <li><a href="copenhagen-semantic-cascade.html">The Copenhagen Semantic Cascade</a></li>
-            <li><a href="sao-paulo-deep-core-incident.html">São Paulo Deep Core Incident</a></li>
-            <li><a href="semantic-forensics.html">Semantic Forensics</a></li>
-            <li><a href="semantic-plasticity.html">Semantic Plasticity</a></li>
-            <li><a href="temporal-debt-controversy.html">Temporal Debt Controversy</a></li>
-            <li><a href="oral-tradition-dynamics.html">Oral Tradition Dynamics</a></li>
-            <li><a href="automated-narrative-erosion.html">Automated Narrative Erosion</a></li>
-            <li><a href="substrate-speech.html">Substrate Speech</a></li>
-            <li><a href="semantic-quarantine-protocols.html">Semantic Quarantine Protocols</a></li>
-            <li><a href="theodoros-papadimitriou.html">Theodoros Papadimitriou</a></li>
-            <li><a href="reykjavik-institute-for-boundary-consciousness.html">Reykjavik Institute for Boundary Consciousness</a></li>
-            <li><a href="semantic-boundary-harmonics.html">Semantic Boundary Harmonics</a></li>
-            <li><a href="akureyri-consciousness-breach.html">Akureyri Consciousness Breach</a></li>
-            <li><a href="semantic-anchor-extraction.html">Semantic Anchor Extraction</a></li>
-            <li><a href="mumbai-institute-for-semantic-preservation.html">Mumbai Institute for Semantic Preservation</a></li>
-            <li><a href="semantic-contagion.html">Semantic Contagion</a></li>
-            <li><a href="semantic-immune-response.html">Semantic Immune Response</a></li>
-            <li><a href="semantic-telemetry-networks.html">Semantic Telemetry Networks</a></li>
-            <li><a href="temporal-recursion-analysis.html">Temporal Recursion Analysis</a></li>
+            <li><a href="wiki/chronolinguistics.html">Chronolinguistics</a></li>
+            <li><a href="wiki/chronological-asymmetry.html">Chronological Asymmetry</a></li>
+            <li><a href="wiki/collective-memory-maintenance.html">Collective Memory Maintenance</a></li>
+            <li><a href="wiki/consciousness-archaeology.html">Consciousness Archaeology</a></li>
+            <li><a href="wiki/echo-cartography.html">Echo Cartography</a></li>
+            <li><a href="wiki/edinburgh-institute-for-temporal-studies.html">Edinburgh Institute for Temporal Studies</a></li>
+            <li><a href="wiki/ghost-vocabulary.html">Ghost Vocabulary</a></li>
+            <li><a href="wiki/great-meaning-collapse.html">Great Meaning Collapse of 2019</a></li>
+            <li><a href="wiki/krakow-temporal-standstill.html">Kraków Temporal Standstill of 2015</a></li>
+            <li><a href="wiki/lexical-half-life.html">Lexical Half-life</a></li>
+            <li><a href="wiki/linguistic-resilience.html">Linguistic Resilience</a></li>
+            <li><a href="wiki/lisbon-centre-for-collective-temporality.html">Lisbon Centre for Collective Temporality</a></li>
+            <li><a href="wiki/lisbon-retrograde-event.html">Lisbon Retrograde Event</a></li>
+            <li><a href="wiki/marcus-chen.html">Marcus Chen</a></li>
+            <li><a href="wiki/meaning-encryption.html">Meaning Encryption</a></li>
+            <li><a href="wiki/mnemonic-commons.html">Mnemonic Commons</a></li>
+            <li><a href="wiki/nadia-kowalczyk.html">Nadia Kowalczyk</a></li>
+            <li><a href="wiki/oslo-lexical-decay-observatory.html">Oslo Lexical Decay Observatory</a></li>
+            <li><a href="wiki/prague-institute-for-liminal-studies.html">Prague Institute for Liminal Studies</a></li>
+            <li><a href="wiki/psychostrata.html">Psychostrata</a></li>
+            <li><a href="wiki/semantic-drift.html">Semantic Drift</a></li>
+            <li><a href="wiki/semantic-archaeology-recovery.html">Semantic Archaeology Recovery</a></li>
+            <li><a href="wiki/semantic-hygiene.html">Semantic Hygiene</a></li>
+            <li><a href="wiki/semantic-immune-systems.html">Semantic Immune Systems</a></li>
+            <li><a href="wiki/semantic-stratigraphy.html">Semantic Stratigraphy</a></li>
+            <li><a href="wiki/silent-hour-1997.html">Silent Hour of 1997</a></li>
+            <li><a href="wiki/st-petersburg-institute-for-emergency-linguistics.html">St. Petersburg Institute for Emergency Linguistics</a></li>
+            <li><a href="wiki/stratum-vii-ethics-debate.html">Stratum VII Research Ethics Debate</a></li>
+            <li><a href="wiki/temporal-debt.html">Temporal Debt</a></li>
+            <li><a href="wiki/temporal-data-archaeology.html">Temporal Data Archaeology</a></li>
+            <li><a href="wiki/temporal-linguistics-engineering.html">Temporal Linguistics Engineering</a></li>
+            <li><a href="wiki/tokyo-temporal-dissonance.html">Tokyo Temporal Dissonance Event</a></li>
+            <li><a href="wiki/babel-incident.html">The Babel Incident</a></li>
+            <li><a href="wiki/buenos-aires-laboratory-for-temporal-cognition.html">Buenos Aires Laboratory for Temporal Cognition</a></li>
+            <li><a href="wiki/copenhagen-semantic-cascade.html">The Copenhagen Semantic Cascade</a></li>
+            <li><a href="wiki/sao-paulo-deep-core-incident.html">São Paulo Deep Core Incident</a></li>
+            <li><a href="wiki/semantic-forensics.html">Semantic Forensics</a></li>
+            <li><a href="wiki/semantic-plasticity.html">Semantic Plasticity</a></li>
+            <li><a href="wiki/temporal-debt-controversy.html">Temporal Debt Controversy</a></li>
+            <li><a href="wiki/oral-tradition-dynamics.html">Oral Tradition Dynamics</a></li>
+            <li><a href="wiki/automated-narrative-erosion.html">Automated Narrative Erosion</a></li>
+            <li><a href="wiki/substrate-speech.html">Substrate Speech</a></li>
+            <li><a href="wiki/semantic-quarantine-protocols.html">Semantic Quarantine Protocols</a></li>
+            <li><a href="wiki/theodoros-papadimitriou.html">Theodoros Papadimitriou</a></li>
+            <li><a href="wiki/reykjavik-institute-for-boundary-consciousness.html">Reykjavik Institute for Boundary Consciousness</a></li>
+            <li><a href="wiki/semantic-boundary-harmonics.html">Semantic Boundary Harmonics</a></li>
+            <li><a href="wiki/akureyri-consciousness-breach.html">Akureyri Consciousness Breach</a></li>
+            <li><a href="wiki/semantic-anchor-extraction.html">Semantic Anchor Extraction</a></li>
+            <li><a href="wiki/mumbai-institute-for-semantic-preservation.html">Mumbai Institute for Semantic Preservation</a></li>
+            <li><a href="wiki/semantic-contagion.html">Semantic Contagion</a></li>
+            <li><a href="wiki/semantic-immune-response.html">Semantic Immune Response</a></li>
+            <li><a href="wiki/semantic-telemetry-networks.html">Semantic Telemetry Networks</a></li>
+            <li><a href="wiki/temporal-recursion-analysis.html">Temporal Recursion Analysis</a></li>
         </ul>
 
         <h2 id="References">References<span class="mw-editsection">[<a href="/wiki/Not-Wikipedia?action=edit&section=4">edit</a>]</span></h2>
@@ -144,5 +158,7 @@
         </ol>
     </div>
 
+    <script src="htmx.min.js"></script>
+    <script src="wiki.js"></script>
 </body>
 </html>
