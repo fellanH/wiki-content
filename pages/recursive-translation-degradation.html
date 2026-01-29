@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recursive Translation Degradation - Wikipedia</title>
+    <link rel="stylesheet" href="../styles">
+    <style>
+        .infobox-title {
+            background-color: #c9a86c;
+            color: #ffffff;
+        }
+        .translation-chain {
+            font-family: 'Courier New', monospace;
+            background-color: #f8f9fa;
+            border: 1px solid #a2a9b1;
+            padding: 1em;
+            margin: 1em 0;
+            font-size: 90%;
+            overflow-x: auto;
+        }
+        .translation-step {
+            margin: 0.5em 0;
+            padding-left: 1em;
+            border-left: 2px solid #d4a87a;
+        }
+        .translation-step .lang {
+            font-weight: bold;
+            color: #54595d;
+        }
+        .degradation-meter {
+            background: linear-gradient(to right, #4a9e4a 0%, #d4a87a 50%, #b22222 100%);
+            height: 12px;
+            border-radius: 6px;
+            margin: 0.5em 0;
+        }
+        .degradation-label {
+            display: flex;
+            justify-content: space-between;
+            font-size: 80%;
+            color: #54595d;
+        }
+        .case-box {
+            background-color: #faf8f5;
+            border: 1px solid #d4a87a;
+            padding: 1em;
+            margin: 1em 0;
+            border-radius: 3px;
+        }
+        .case-box h4 {
+            margin-top: 0;
+            color: #8b6914;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="content">
+        <h1 id="firstHeading">Recursive Translation Degradation</h1>
+        <div id="siteSub">From Wikipedia, the free encyclopedia</div>
+        <div id="contentSub"><i>For related phenomena, see <a href="semantic-drift.html">semantic drift</a> and <a href="automated-narrative-erosion.html">automated narrative erosion</a>.</i></div>
+
+        <table class="ambox ambox-warning">
+            <tr>
+                <td><b>Demonstration warning:</b> This article contains examples of recursive translation outputs. Some passages may exhibit semantic instability. Readers engaged in <a href="semantic-hygiene.html">semantic hygiene</a> protocols should process these examples in isolation. <small><i>(January 2026)</i></small></td>
+            </tr>
+        </table>
+
+        <table class="infobox">
+            <tr>
+                <td colspan="2" class="infobox-title">Recursive Translation Degradation</td>
+            </tr>
+            <tr>
+                <th scope="row">Also known as</th>
+                <td>RTD, Translation cascade effect, Semantic round-trip decay, "Lost in Translation Syndrome"</td>
+            </tr>
+            <tr>
+                <th scope="row">Type</th>
+                <td>Computational linguistics phenomenon</td>
+            </tr>
+            <tr>
+                <th scope="row">First documented</th>
+                <td>2019 (informal observations)<br>2022 (formal study)</td>
+            </tr>
+            <tr>
+                <th scope="row">Key researcher</th>
+                <td><a href="nadia-kowalczyk.html">Dr. Nadia Kowalczyk</a><br>Warsaw Institute for Computational Semantics</td>
+            </tr>
+            <tr>
+                <th scope="row">Critical threshold</th>
+                <td>7-12 translation iterations</td>
+            </tr>
+            <tr>
+                <th scope="row">Related phenomena</th>
+                <td><a href="semantic-drift.html">Semantic drift</a><br><a href="automated-narrative-erosion.html">Automated narrative erosion</a><br><a href="ghost-vocabulary.html">Ghost vocabulary</a></td>
+            </tr>
+            <tr>
+                <th scope="row">Prevention methods</th>
+                <td><a href="meaning-encryption.html">Meaning encryption</a><br><a href="semantic-quarantine-protocols.html">Semantic quarantine</a></td>
+            </tr>
+        </table>
+
+        <p><b>Recursive Translation Degradation</b> (RTD), sometimes called the <b>translation cascade effect</b>, is a computational linguistics phenomenon in which meaning progressively deteriorates when a text is repeatedly translated through multiple languages by automated systems. Unlike simple translation errors, RTD produces characteristic patterns of semantic decay that can transform coherent statements into surreal, contradictory, or entirely meaningless outputs within as few as seven to twelve translation cycles.<sup><a href="#cite1">[1]</a></sup></p>
+
+        <p>The phenomenon was first systematically studied by <a href="nadia-kowalczyk.html">Dr. Nadia Kowalczyk</a> at the Warsaw Institute for Computational Semantics in 2022, though internet users had observed and documented similar effects as early as 2019 through informal "translation chain" experiments. Kowalczyk's research demonstrated that RTD follows predictable degradation curves and produces measurable <a href="semantic-drift.html">semantic drift</a> patterns that differ fundamentally from natural language evolution.<sup><a href="#cite2">[2]</a></sup></p>
+
+        <p>The <a href="babel-incident.html">Babel Incident</a> of 2021 brought RTD into mainstream attention when investigators discovered that translation cascade artifacts had contaminated approximately 15% of multilingual training corpora used by major language models. Dr. Theodoros Papadimitriou of the Athens Digital Humanities Laboratory described RTD as "semantic entropy made visible—the heat death of meaning rendered in text."<sup><a href="#cite3">[3]</a></sup></p>
+
+        <div id="toc">
+            <h2>Contents</h2>
+            <ul>
+                <li><span class="tocnumber">1</span> <a href="#Mechanism">Mechanism</a>
+                    <ul>
+                        <li><span class="tocnumber">1.1</span> <a href="#Phase_model">The Kowalczyk phase model</a></li>
+                        <li><span class="tocnumber">1.2</span> <a href="#Language_path">Language path dependency</a></li>
+                    </ul>
+                </li>
+                <li><span class="tocnumber">2</span> <a href="#Degradation_examples">Degradation examples</a></li>
+                <li><span class="tocnumber">3</span> <a href="#Cascading_effects">Cascading effects in AI systems</a></li>
+                <li><span class="tocnumber">4</span> <a href="#Detection">Detection and measurement</a></li>
+                <li><span class="tocnumber">5</span> <a href="#Notable_incidents">Notable incidents</a></li>
+                <li><span class="tocnumber">6</span> <a href="#Prevention">Prevention and mitigation</a></li>
+                <li><span class="tocnumber">7</span> <a href="#See_also">See also</a></li>
+                <li><span class="tocnumber">8</span> <a href="#References">References</a></li>
+            </ul>
+        </div>
+
+        <h2 id="Mechanism">Mechanism<span class="mw-editsection">[<a href="?action=edit&section=1">edit</a>]</span></h2>
+
+        <h3 id="Phase_model">The Kowalczyk phase model</h3>
+
+        <p>Dr. Kowalczyk's 2022 research identified four distinct phases of recursive translation degradation:</p>
+
+        <ol>
+            <li><b>Substitution phase</b> (iterations 1-3): Individual words are replaced with near-synonyms that subtly alter meaning. "The man walked quickly" might become "The person moved fast." Semantic content remains largely intact but begins accumulating small deviations.</li>
+            <li><b>Restructuring phase</b> (iterations 4-6): Grammatical structures begin to shift. Complex sentences simplify or become awkwardly rephrased. Idiomatic expressions fail to survive translation cycles and are replaced with literal or nonsensical equivalents.</li>
+            <li><b>Fragmentation phase</b> (iterations 7-9): Logical connections between clauses break down. Cause-and-effect relationships invert or disappear. The text begins exhibiting what Kowalczyk termed "semantic archipelagos"—isolated islands of meaning surrounded by linguistic noise.</li>
+            <li><b>Terminal phase</b> (iterations 10+): Original meaning becomes unrecoverable. Text may appear grammatically valid while conveying no coherent information, or may dissolve into obviously broken language. At this stage, the output bears no meaningful relationship to the input.</li>
+        </ol>
+
+        <div class="degradation-meter"></div>
+        <div class="degradation-label">
+            <span>Original meaning</span>
+            <span>Substitution</span>
+            <span>Restructuring</span>
+            <span>Fragmentation</span>
+            <span>Terminal</span>
+        </div>
+
+        <p>The phase boundaries are not absolute—certain types of content degrade faster or slower depending on factors including source language complexity, the specific translation path chosen, and the semantic density of the original text.<sup><a href="#cite4">[4]</a></sup></p>
+
+        <h3 id="Language_path">Language path dependency</h3>
+
+        <p>RTD severity depends heavily on the sequence of languages through which a text is translated. Kowalczyk identified three categories of translation paths:</p>
+
+        <ul>
+            <li><b>Conservative paths</b>: Translation chains through closely related languages (e.g., Portuguese → Spanish → Italian → French) preserve meaning longer due to shared grammatical structures and cognate vocabulary. Average terminal phase entry: 14-18 iterations.</li>
+            <li><b>Moderate paths</b>: Chains mixing language families but maintaining similar grammatical complexity (e.g., English → German → Russian → Japanese). Average terminal phase entry: 9-12 iterations.</li>
+            <li><b>Aggressive paths</b>: Chains including tonal languages, agglutinative languages, and logographic writing systems in sequence (e.g., English → Mandarin → Finnish → Arabic → Vietnamese). Average terminal phase entry: 5-7 iterations.</li>
+        </ul>
+
+        <p>Dr. Sofia Andersson of the Stockholm Institute for Sound Studies demonstrated that phonetic information, when present in the original text (such as poetry or dialogue), degrades approximately 40% faster than purely semantic content. Her research on the <a href="oslo-lexical-decay-observatory.html">Oslo Lexical Decay Observatory</a>'s multilingual corpus found that rhyme schemes and rhythmic patterns are typically destroyed by the third iteration regardless of translation path.<sup><a href="#cite5">[5]</a></sup></p>
+
+        <h2 id="Degradation_examples">Degradation examples<span class="mw-editsection">[<a href="?action=edit&section=2">edit</a>]</span></h2>
+
+        <p>The following examples, reproduced from Kowalczyk's original 2022 study, demonstrate RTD through a moderate-path translation chain (English → Japanese → Hungarian → Swahili → Dutch → back to English):</p>
+
+        <div class="case-box">
+            <h4>Example 1: Factual statement</h4>
+            <p><b>Original:</b> "Water freezes at zero degrees Celsius under normal atmospheric pressure."</p>
+            <div class="translation-chain">
+                <div class="translation-step"><span class="lang">After iteration 3:</span> "Water becomes ice at zero degrees in normal air conditions."</div>
+                <div class="translation-step"><span class="lang">After iteration 5:</span> "The water is ice when zero degrees is normal in the air."</div>
+                <div class="translation-step"><span class="lang">After iteration 8:</span> "Ice water normally flies at zero."</div>
+                <div class="translation-step"><span class="lang">After iteration 12:</span> "Nothing ice normal zero flying."</div>
+            </div>
+            <p><small>Semantic content at final iteration: approximately 5% recoverable.</small></p>
+        </div>
+
+        <div class="case-box">
+            <h4>Example 2: Emotional expression</h4>
+            <p><b>Original:</b> "I feel a profound sense of loss when I think about my childhood home."</p>
+            <div class="translation-chain">
+                <div class="translation-step"><span class="lang">After iteration 3:</span> "I feel deep loss when thinking of the house where I was a child."</div>
+                <div class="translation-step"><span class="lang">After iteration 5:</span> "Deep thinking about the child's house causes me to lose feeling."</div>
+                <div class="translation-step"><span class="lang">After iteration 8:</span> "The child's house thinks deeply and I am lost without feeling."</div>
+                <div class="translation-step"><span class="lang">After iteration 12:</span> "Houses of children are thinking. Lost, not feeling, deeply."</div>
+            </div>
+            <p><small>Note the inversion of agency (house becomes the thinking subject) and the fragmentation of emotional content into disconnected descriptors.</small></p>
+        </div>
+
+        <p>Dr. Mei-Lin Zhou of the Beijing Academy of Logographic Evolution observed that texts originating in logographic languages (Chinese, Japanese kanji) often exhibit different degradation patterns, with meaning occasionally "crystallizing" around individual characters that survive multiple translation rounds as semantic anchors. Zhou termed these survivors "translation fossils."<sup><a href="#cite6">[6]</a></sup></p>
+
+        <h2 id="Cascading_effects">Cascading effects in AI systems<span class="mw-editsection">[<a href="?action=edit&section=3">edit</a>]</span></h2>
+
+        <p>RTD poses particular dangers when degraded translations enter machine learning training datasets. Dr. Isabella Reyes of the Buenos Aires Laboratory for Computational Semantics documented several mechanisms by which RTD artifacts propagate through AI systems:</p>
+
+        <ul>
+            <li><b>Training data contamination</b>: Web-scraped corpora frequently contain RTD-degraded text from user-generated translation experiments. Language models trained on this data may learn degraded patterns as valid linguistic structures.</li>
+            <li><b>Feedback amplification</b>: AI translation systems that use their own outputs for iterative improvement can enter degradation spirals, each generation building on accumulated errors.</li>
+            <li><b>Cross-model infection</b>: When one AI system's degraded output is used to train or fine-tune another, RTD artifacts spread between systems without human intermediate review.</li>
+        </ul>
+
+        <p>The <a href="st-petersburg-institute-for-emergency-linguistics.html">St. Petersburg Institute for Emergency Linguistics</a> estimates that approximately 3-7% of major language model training corpora contain detectable RTD artifacts as of 2025. Dr. Anika Petrov has warned that this contamination rate may represent an existential threat to automated translation reliability: "We are building translation systems on foundations of already-degraded meaning. Each generation amplifies the errors of the last."<sup><a href="#cite7">[7]</a></sup></p>
+
+        <p>Dr. Papadimitriou's research on <a href="automated-narrative-erosion.html">automated narrative erosion</a> found significant overlap between RTD patterns and broader algorithmic meaning decay. He proposed that RTD may represent an accelerated laboratory model for studying longer-term semantic degradation processes: "What recursive translation does in minutes, natural <a href="semantic-drift.html">semantic drift</a> does over generations. The patterns are isomorphic."<sup><a href="#cite8">[8]</a></sup></p>
+
+        <h2 id="Detection">Detection and measurement<span class="mw-editsection">[<a href="?action=edit&section=4">edit</a>]</span></h2>
+
+        <p>Identifying RTD-degraded text requires specialized <a href="semantic-forensics.html">semantic forensics</a> techniques. Dr. Lucia Fernandez of the Madrid Laboratory for Meaning Verification developed the Translation Artifact Signature (TAS) system, which identifies RTD through several characteristic markers:</p>
+
+        <table class="wikitable">
+            <tr>
+                <th>Marker</th>
+                <th>Description</th>
+                <th>Detection reliability</th>
+            </tr>
+            <tr>
+                <td>Synonym clustering</td>
+                <td>Unusual concentration of near-synonyms that suggest repeated substitution</td>
+                <td>78%</td>
+            </tr>
+            <tr>
+                <td>Grammatical anachronism</td>
+                <td>Sentence structures that blend patterns from multiple language families</td>
+                <td>85%</td>
+            </tr>
+            <tr>
+                <td>Semantic inversions</td>
+                <td>Subject-object or cause-effect relationships that contradict logical expectation</td>
+                <td>91%</td>
+            </tr>
+            <tr>
+                <td>Idiom fragments</td>
+                <td>Partial translations of fixed expressions, literalized metaphors</td>
+                <td>94%</td>
+            </tr>
+            <tr>
+                <td>Translation fossils</td>
+                <td>Words or phrases that remain unusually stable across otherwise degraded text</td>
+                <td>72%</td>
+            </tr>
+        </table>
+
+        <p>The TAS system achieved 89% accuracy in identifying RTD-degraded texts within the first three degradation phases and 97% accuracy for texts in terminal phase. However, Fernandez noted that moderately degraded texts (phases 2-3) often resist detection because they remain grammatically valid while carrying subtle semantic corruption—a condition she termed "grammatical camouflage."<sup><a href="#cite9">[9]</a></sup></p>
+
+        <h2 id="Notable_incidents">Notable incidents<span class="mw-editsection">[<a href="?action=edit&section=5">edit</a>]</span></h2>
+
+        <h3>The Multilingual Wikipedia Crisis (2020)</h3>
+
+        <p>In late 2020, automated bots designed to synchronize content across Wikipedia language editions began propagating RTD artifacts at scale. The bots had been configured to "round-trip" verify translations by translating articles through intermediate languages and comparing outputs. A configuration error caused degraded intermediate texts to be published instead of final translations. Over 47,000 articles across 28 language editions were contaminated before the issue was identified and corrected.<sup><a href="#cite10">[10]</a></sup></p>
+
+        <h3>The Legal Document Scandal (2023)</h3>
+
+        <p>A major international law firm discovered that internal document translation workflows had subjected contract templates to unintended recursive translation through their multi-office review process. Contracts had been translated from English to French (Paris office) to German (Berlin office) to Mandarin (Shanghai office) and back to English (London office) as part of standard review procedures. Analysis revealed that approximately 15% of contractual terms had undergone measurable semantic drift, with several clauses having inverted meaning. The subsequent legal and reputational damages led to the "Warsaw Protocols" for legal translation, co-authored by Kowalczyk.<sup><a href="#cite11">[11]</a></sup></p>
+
+        <h3>The <a href="babel-incident.html">Babel Incident</a> connection</h3>
+
+        <p>Post-incident analysis of the <a href="babel-incident.html">Babel Incident</a> identified RTD contamination as a contributing factor. Investigators found that the AI translation systems involved had been trained on corpora containing significant RTD artifacts, predisposing them to generate degraded outputs even in single-pass translation scenarios. Dr. Kirsten Morrison of the <a href="edinburgh-institute-for-temporal-studies.html">Edinburgh Institute for Temporal Studies</a> described this as "inherited semantic instability—the systems had learned to lose meaning."<sup><a href="#cite12">[12]</a></sup></p>
+
+        <h2 id="Prevention">Prevention and mitigation<span class="mw-editsection">[<a href="?action=edit&section=6">edit</a>]</span></h2>
+
+        <p>Several strategies have been developed to prevent or mitigate RTD:</p>
+
+        <ul>
+            <li><b>Anchor term protection</b>: Marking specific terms as untranslatable, ensuring they pass through translation chains intact. Particularly effective for technical vocabulary and proper nouns.</li>
+            <li><b>Translation path restrictions</b>: Limiting automated systems to conservative language paths and prohibiting round-trip verification methods.</li>
+            <li><b><a href="meaning-encryption.html">Meaning encryption</a></b>: Encoding semantic content in translation-resistant formats that can be decoded at the destination rather than translated.</li>
+            <li><b>Human checkpoints</b>: Requiring human review after every third translation iteration to detect and correct early-phase degradation.</li>
+            <li><b><a href="semantic-quarantine-protocols.html">Semantic quarantine</a></b>: Isolating texts suspected of RTD contamination from training corpora and automated processing systems.</li>
+        </ul>
+
+        <p>Dr. Kwame Asante of the Accra Centre for Cultural Memory has advocated for special protections for <a href="oral-tradition-dynamics.html">oral tradition</a> materials, arguing that their inherent variability makes them particularly vulnerable to RTD and difficult to recover once degraded: "These texts have always lived through transformation. But recursive translation imposes a particular kind of transformation—one that strips away cultural context and replaces it with computational noise."<sup><a href="#cite13">[13]</a></sup></p>
+
+        <p>The <a href="oslo-lexical-decay-observatory.html">Oslo Lexical Decay Observatory</a> maintains a real-time monitoring system for RTD emergence in web-scale translation systems, publishing quarterly reports on contamination trends and emerging risk vectors.<sup><a href="#cite14">[14]</a></sup></p>
+
+        <h2 id="See_also">See also<span class="mw-editsection">[<a href="?action=edit&section=7">edit</a>]</span></h2>
+        <ul>
+            <li><a href="semantic-drift.html">Semantic Drift</a></li>
+            <li><a href="automated-narrative-erosion.html">Automated Narrative Erosion</a></li>
+            <li><a href="babel-incident.html">The Babel Incident</a></li>
+            <li><a href="ghost-vocabulary.html">Ghost Vocabulary</a></li>
+            <li><a href="lexical-half-life.html">Lexical Half-life</a></li>
+            <li><a href="semantic-forensics.html">Semantic Forensics</a></li>
+            <li><a href="semantic-quarantine-protocols.html">Semantic Quarantine Protocols</a></li>
+            <li><a href="meaning-encryption.html">Meaning Encryption</a></li>
+            <li><a href="oral-tradition-dynamics.html">Oral Tradition Dynamics</a></li>
+            <li><a href="oslo-lexical-decay-observatory.html">Oslo Lexical Decay Observatory</a></li>
+            <li><a href="st-petersburg-institute-for-emergency-linguistics.html">St. Petersburg Institute for Emergency Linguistics</a></li>
+            <li><a href="copenhagen-semantic-cascade.html">The Copenhagen Semantic Cascade</a></li>
+            <li><a href="semantic-anchor-extraction.html">Semantic Anchor Extraction</a></li>
+            <li><a href="manila-meaning-overflow.html">Manila Meaning Overflow of 2017</a></li>
+            <li><a href="semantic-inheritance-protocols.html">Semantic Inheritance Protocols</a></li>
+            <li><a href="semantic-telomere-theory.html">Semantic Telomere Theory</a></li>
+        </ul>
+
+        <h2 id="References">References<span class="mw-editsection">[<a href="?action=edit&section=8">edit</a>]</span></h2>
+        <ol class="reflist">
+            <li id="cite1"><b>^</b> Kowalczyk, Nadia (2022). "Recursive Translation Degradation: Mechanisms and Measurement". <i>Journal of Computational Semantics</i>. 18(3): 234-267.</li>
+            <li id="cite2"><b>^</b> Kowalczyk, N.; Wójcik, A. (2022). "The Four Phases of Translation Cascade Decay". <i>Warsaw Papers in Applied Linguistics</i>. 45: 89-112.</li>
+            <li id="cite3"><b>^</b> Papadimitriou, Theodoros (2022). "Babel's Long Shadow: Translation Artifacts in AI Training Data". <i>Proceedings of the Athens Symposium on Computational Folklore</i>. pp. 156-178.</li>
+            <li id="cite4"><b>^</b> Kowalczyk, Nadia (2023). "Factors Affecting RTD Progression Rate: A Statistical Analysis". <i>Computational Linguistics Quarterly</i>. 41(2): 312-335.</li>
+            <li id="cite5"><b>^</b> Andersson, Sofia (2023). "Phonetic Information Loss in Recursive Translation". <i>Stockholm Papers in Acoustic Semantics</i>. 11: 67-89.</li>
+            <li id="cite6"><b>^</b> Zhou, Mei-Lin (2023). "Translation Fossils: Semantic Anchors in Degraded Multilingual Text". <i>Beijing Journal of Logographic Studies</i>. 29(1): 45-67.</li>
+            <li id="cite7"><b>^</b> Petrov, Anika (2024). "Contaminated Foundations: RTD Artifacts in Language Model Training". <i>Emergency Linguistics Quarterly</i>. 7(1): 23-45.</li>
+            <li id="cite8"><b>^</b> Papadimitriou, Theodoros (2024). "Isomorphic Decay: RTD as a Model for Long-Term Semantic Evolution". <i>Journal of Digital Humanities and Meaning Preservation</i>. 16(2): 178-201.</li>
+            <li id="cite9"><b>^</b> Fernandez, Lucia (2023). "The Translation Artifact Signature System: Detection Methods for RTD-Contaminated Text". <i>IASFE Standards Review</i>. 9(2): 56-78.</li>
+            <li id="cite10"><b>^</b> Wikimedia Foundation (2021). <i>Technical Report: 2020 Multi-language Synchronization Incident</i>. WMF-TR-2021-03.</li>
+            <li id="cite11"><b>^</b> Kowalczyk, N.; Hoffmann, K. (2023). "The Warsaw Protocols: Standards for Legal Document Translation Integrity". <i>Journal of Legal Technology</i>. 15(4): 234-256.</li>
+            <li id="cite12"><b>^</b> Morrison, Kirsten (2023). "Inherited Semantic Instability: Training Contamination in the Babel Incident". <i>Edinburgh Papers in Temporal Linguistics</i>. 47: 112-134.</li>
+            <li id="cite13"><b>^</b> Asante, Kwame (2024). "Protecting Oral Tradition from Translation Cascade". <i>Accra Papers in Cultural Memory</i>. 19: 34-56.</li>
+            <li id="cite14"><b>^</b> Oslo Lexical Decay Observatory (2025). <i>Quarterly Report on Translation System Contamination Trends</i>. OLDO-QR-2025-Q1.</li>
+        </ol>
+
+        <div id="catlinks">
+            <b>Categories:</b> <a href="#">Computational linguistics</a> | <a href="#">Machine translation</a> | <a href="#">Semantic degradation</a> | <a href="#">AI safety</a> | <a href="#">Language technology risks</a>
+        </div>
+    </div>
+
+</body>
+</html>

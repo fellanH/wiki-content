@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Triage Protocols - Wikipedia</title>
+    <link rel="stylesheet" href="../styles">
+    <style>
+        .infobox-title {
+            background-color: #c9b896; /* Warm tan - practice/methodology theme */
+            color: #1a1a1a;
+        }
+        .triage-level {
+            padding: 0.6em 1em;
+            margin: 0.5em 0;
+            border-radius: 3px;
+        }
+        .triage-critical {
+            background-color: #f8d7da;
+            border-left: 4px solid #721c24;
+        }
+        .triage-severe {
+            background-color: #fff3cd;
+            border-left: 4px solid #856404;
+        }
+        .triage-moderate {
+            background-color: #d4edda;
+            border-left: 4px solid #155724;
+        }
+        .triage-minimal {
+            background-color: #f0f6fc;
+            border-left: 4px solid #4a6fa5;
+        }
+        .protocol-box {
+            background-color: #faf8f5;
+            border: 1px solid #c9b896;
+            padding: 1em;
+            margin: 1em 0;
+        }
+        .protocol-box h4 {
+            margin-top: 0;
+            color: #5a4a3a;
+        }
+        .field-note {
+            font-style: italic;
+            color: #555;
+            padding-left: 1em;
+            border-left: 2px solid #c9b896;
+            margin: 0.8em 0;
+        }
+        .decision-tree {
+            font-family: 'Courier New', monospace;
+            background-color: #f8f9fa;
+            padding: 1em;
+            margin: 1em 0;
+            font-size: 0.9em;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="content">
+        <h1 id="firstHeading">Semantic Triage Protocols</h1>
+        <div id="siteSub">From Wikipedia, the free encyclopedia</div>
+        <div id="contentSub"><i>For related emergency procedures, see <a href="semantic-quarantine-protocols.html">Semantic Quarantine Protocols</a>.</i></div>
+
+        <div class="ambox ambox-notice">
+            <strong>Field certification required:</strong> Implementation of Semantic Triage Protocols requires STP-II certification or equivalent. Improper triage assessments can result in misallocation of limited response resources during active semantic degradation events. See <a href="st-petersburg-institute-for-emergency-linguistics.html">St. Petersburg Institute for Emergency Linguistics</a> for current certification requirements.
+        </div>
+
+        <table class="infobox">
+            <tr>
+                <td colspan="2" class="infobox-title">Semantic Triage Protocols</td>
+            </tr>
+            <tr>
+                <th scope="row">Type</th>
+                <td>Emergency assessment methodology</td>
+            </tr>
+            <tr>
+                <th scope="row">Developed</th>
+                <td>2018-2021</td>
+            </tr>
+            <tr>
+                <th scope="row">Primary developers</th>
+                <td>Dr. Evelyn Nakamura-Reid<br>Dr. Anika Petrov<br>Dr. Theodoros Papadimitriou</td>
+            </tr>
+            <tr>
+                <th scope="row">Governing body</th>
+                <td>International Semantic Emergency Response Consortium (ISERC)</td>
+            </tr>
+            <tr>
+                <th scope="row">Current version</th>
+                <td>STP-3.1 (2024)</td>
+            </tr>
+            <tr>
+                <th scope="row">Field deployments</th>
+                <td>47 confirmed (as of 2025)</td>
+            </tr>
+            <tr>
+                <th scope="row">Related protocols</th>
+                <td><a href="semantic-quarantine-protocols.html">Semantic Quarantine Protocols</a><br><a href="semantic-inheritance-protocols.html">Semantic Inheritance Protocols</a></td>
+            </tr>
+        </table>
+
+        <p><b>Semantic Triage Protocols</b> (STP) are a standardized set of emergency assessment procedures designed to rapidly evaluate and prioritize responses to active <a href="semantic-drift.html">semantic degradation</a> events. Developed between 2018 and 2021 through collaboration between the <a href="#">Vancouver Computational Semantics Group</a>, the <a href="st-petersburg-institute-for-emergency-linguistics.html">St. Petersburg Institute for Emergency Linguistics</a>, and the <a href="#">Athens Digital Humanities Laboratory</a>, the protocols provide a systematic framework for field teams to assess the severity, spread rate, and intervention priority of meaning degradation incidents.<sup><a href="#cite1">[1]</a></sup></p>
+
+        <p>Unlike <a href="semantic-quarantine-protocols.html">Semantic Quarantine Protocols</a>, which focus on containment of identified semantic hazards, Semantic Triage Protocols are designed for the initial assessment phase when the nature and scope of a semantic event remain unclear. The protocols were formalized in response to coordination failures during the <a href="manila-meaning-overflow.html">Manila Meaning Overflow of 2017</a>, where delayed assessment contributed to the event's eventual severity.<sup><a href="#cite2">[2]</a></sup></p>
+
+        <div id="toc">
+            <h2>Contents</h2>
+            <ul>
+                <li><span class="tocnumber">1</span> <a href="#Background">Background and development</a></li>
+                <li><span class="tocnumber">2</span> <a href="#Classification">Classification system</a>
+                    <ul>
+                        <li><span class="tocnumber">2.1</span> <a href="#Critical">Critical (Red) events</a></li>
+                        <li><span class="tocnumber">2.2</span> <a href="#Severe">Severe (Orange) events</a></li>
+                        <li><span class="tocnumber">2.3</span> <a href="#Moderate">Moderate (Yellow) events</a></li>
+                        <li><span class="tocnumber">2.4</span> <a href="#Minimal">Minimal (Blue) events</a></li>
+                    </ul>
+                </li>
+                <li><span class="tocnumber">3</span> <a href="#Assessment">Field assessment procedures</a></li>
+                <li><span class="tocnumber">4</span> <a href="#Decision">Decision framework</a></li>
+                <li><span class="tocnumber">5</span> <a href="#Deployments">Notable deployments</a></li>
+                <li><span class="tocnumber">6</span> <a href="#Limitations">Limitations and criticism</a></li>
+                <li><span class="tocnumber">7</span> <a href="#Training">Training and certification</a></li>
+                <li><span class="tocnumber">8</span> <a href="#See_also">See also</a></li>
+                <li><span class="tocnumber">9</span> <a href="#References">References</a></li>
+            </ul>
+        </div>
+
+        <h2 id="Background">Background and development<span class="mw-editsection">[<a href="?action=edit&section=1">edit</a>]</span></h2>
+
+        <p>Prior to the formalization of Semantic Triage Protocols, responses to semantic degradation events were largely ad hoc. Individual institutions developed their own assessment criteria, leading to inconsistent evaluations and, critically, incompatible priority classifications when multiple organizations responded to the same event.<sup><a href="#cite3">[3]</a></sup></p>
+
+        <p>The <a href="manila-meaning-overflow.html">Manila Meaning Overflow of 2017</a> demonstrated the consequences of this fragmentation. When the event was detected, three separate response teams—from the <a href="st-petersburg-institute-for-emergency-linguistics.html">St. Petersburg Institute</a>, the <a href="berlin-centre-for-linguistic-preservation.html">Berlin Centre for Linguistic Preservation</a>, and a regional Philippine emergency linguistics unit—each conducted independent assessments. Their classifications differed significantly:</p>
+
+        <ul>
+            <li>St. Petersburg team: "Severe/Escalating" (their internal Scale IV)</li>
+            <li>Berlin team: "Significant but contained" (equivalent to moderate)</li>
+            <li>Philippine team: "Critical emergency" (recommending immediate evacuation)</li>
+        </ul>
+
+        <p>The conflicting assessments delayed coordinated response by approximately fourteen hours—a period during which the semantic cascade expanded from affecting approximately 2,000 individuals to over 50,000.<sup><a href="#cite4">[4]</a></sup></p>
+
+        <div class="field-note">
+            "We lost almost an entire day arguing about whether we were facing a Grade III or Grade V event. By the time we agreed on severity, the event had evolved into something none of our frameworks predicted."
+            <br>— Dr. Anika Petrov, post-incident analysis, 2018
+        </div>
+
+        <p>In the aftermath, Dr. Evelyn Nakamura-Reid of the Vancouver Computational Semantics Group proposed developing a unified triage standard. Working with Dr. Petrov and Dr. <a href="theodoros-papadimitriou.html">Theodoros Papadimitriou</a>, Nakamura-Reid led a three-year development process that produced the first Semantic Triage Protocols (STP-1.0) in 2021.<sup><a href="#cite5">[5]</a></sup></p>
+
+        <p>A key innovation was the protocol's focus on <i>observable indicators</i> rather than theoretical classification. Where previous systems required deep analysis of semantic content, STP assessment relies on measurable field observations that can be conducted rapidly and consistently by trained personnel.<sup><a href="#cite6">[6]</a></sup></p>
+
+        <h2 id="Classification">Classification system<span class="mw-editsection">[<a href="?action=edit&section=2">edit</a>]</span></h2>
+
+        <p>The Semantic Triage Protocols classify events into four priority levels based on three primary dimensions: <b>spread velocity</b> (rate of meaning degradation propagation), <b>depth severity</b> (degree of semantic content loss), and <b>reversibility index</b> (likelihood of successful remediation).<sup><a href="#cite7">[7]</a></sup></p>
+
+        <h3 id="Critical">Critical (Red) events</h3>
+
+        <div class="triage-level triage-critical">
+            <strong>Classification:</strong> STP-Critical (Red)<br>
+            <strong>Response window:</strong> &lt;2 hours<br>
+            <strong>Resource allocation:</strong> Maximum available; international coordination authorized
+        </div>
+
+        <p>Critical events are characterized by:</p>
+        <ul>
+            <li>Spread velocity exceeding 1,000 affected individuals/hour</li>
+            <li>Core semantic structures (identity markers, relationship designators) actively degrading</li>
+            <li>Evidence of <a href="recursive-translation-degradation.html">recursive degradation loops</a></li>
+            <li>Cross-domain propagation (meaning loss spreading between unrelated semantic fields)</li>
+        </ul>
+
+        <p>The <a href="copenhagen-semantic-cascade.html">Copenhagen Semantic Cascade</a> would have been classified as Critical under STP criteria, though it predates the protocols. Dr. <a href="tobias-lindqvist.html">Tobias Lindqvist</a>'s retrospective analysis suggests that earlier Critical classification might have enabled more effective intervention.<sup><a href="#cite8">[8]</a></sup></p>
+
+        <h3 id="Severe">Severe (Orange) events</h3>
+
+        <div class="triage-level triage-severe">
+            <strong>Classification:</strong> STP-Severe (Orange)<br>
+            <strong>Response window:</strong> 2-8 hours<br>
+            <strong>Resource allocation:</strong> Regional coordination; specialist teams deployed
+        </div>
+
+        <p>Severe events show:</p>
+        <ul>
+            <li>Spread velocity of 100-1,000 affected individuals/hour</li>
+            <li>Secondary semantic structures degrading (contextual markers, connotative layers)</li>
+            <li>Localized recursive loops without evidence of cross-domain spread</li>
+            <li>Reversibility index above 0.4 (partial remediation likely)</li>
+        </ul>
+
+        <h3 id="Moderate">Moderate (Yellow) events</h3>
+
+        <div class="triage-level triage-moderate">
+            <strong>Classification:</strong> STP-Moderate (Yellow)<br>
+            <strong>Response window:</strong> 8-48 hours<br>
+            <strong>Resource allocation:</strong> Local resources; monitoring intensified
+        </div>
+
+        <p>Moderate events exhibit:</p>
+        <ul>
+            <li>Spread velocity below 100 affected individuals/hour</li>
+            <li>Degradation limited to peripheral semantic content</li>
+            <li>No evidence of recursive amplification</li>
+            <li>Reversibility index above 0.7 (full remediation probable)</li>
+        </ul>
+
+        <h3 id="Minimal">Minimal (Blue) events</h3>
+
+        <div class="triage-level triage-minimal">
+            <strong>Classification:</strong> STP-Minimal (Blue)<br>
+            <strong>Response window:</strong> 48+ hours (monitoring only)<br>
+            <strong>Resource allocation:</strong> Standard observation protocols
+        </div>
+
+        <p>Minimal events involve:</p>
+        <ul>
+            <li>Isolated semantic degradation affecting fewer than 100 individuals</li>
+            <li>No evidence of active propagation</li>
+            <li>Natural <a href="semantic-plasticity.html">semantic plasticity</a> likely sufficient for recovery</li>
+            <li>Event may represent normal <a href="lexical-half-life.html">lexical decay</a> rather than pathological degradation</li>
+        </ul>
+
+        <h2 id="Assessment">Field assessment procedures<span class="mw-editsection">[<a href="?action=edit&section=3">edit</a>]</span></h2>
+
+        <p>The STP assessment procedure is designed to be completed within 30 minutes of arrival at an active semantic event. Field teams follow a standardized sequence known as the "SPREAD" framework:<sup><a href="#cite9">[9]</a></sup></p>
+
+        <div class="protocol-box">
+            <h4>SPREAD Assessment Framework</h4>
+            <p><b>S</b> - <u>Scope</u>: Estimate affected population and geographic extent</p>
+            <p><b>P</b> - <u>Propagation</u>: Assess spread velocity through direct observation and informant interviews</p>
+            <p><b>R</b> - <u>Recursion</u>: Test for recursive degradation loops using the Papadimitriou Recursion Probe</p>
+            <p><b>E</b> - <u>Extent</u>: Determine semantic depth of degradation (core vs. peripheral structures)</p>
+            <p><b>A</b> - <u>Anchors</u>: Identify surviving <a href="semantic-anchor-extraction.html">semantic anchors</a> that may serve as remediation foundations</p>
+            <p><b>D</b> - <u>Domain</u>: Map affected semantic domains and check for cross-domain propagation</p>
+        </div>
+
+        <p>Each SPREAD element is scored on a 0-10 scale, with specific weighted contributions to the final triage classification. The weighting was calibrated using retrospective analysis of 23 historical semantic events, including the <a href="babel-incident.html">Babel Incident</a> and the <a href="zurich-semantic-inversion.html">Zurich Semantic Inversion</a>.<sup><a href="#cite10">[10]</a></sup></p>
+
+        <p>Dr. <a href="nadia-kowalczyk.html">Nadia Kowalczyk</a> contributed the recursion testing component, adapting her work on <a href="recursive-translation-degradation.html">recursive translation degradation</a> for rapid field assessment. The Papadimitriou Recursion Probe—named after its developer—involves presenting subjects with a series of nested semantic tasks that reveal the presence of degradation feedback loops within approximately five minutes.<sup><a href="#cite11">[11]</a></sup></p>
+
+        <h2 id="Decision">Decision framework<span class="mw-editsection">[<a href="?action=edit&section=4">edit</a>]</span></h2>
+
+        <p>The STP decision framework provides explicit response guidance based on triage classification. Unlike earlier protocols that left intervention decisions to field commanders, STP-3.0 includes mandatory action thresholds:<sup><a href="#cite12">[12]</a></sup></p>
+
+        <div class="decision-tree">
+SPREAD Score ≥ 45 ───► CRITICAL (Red)
+    │                    ├─► Immediate quarantine assessment
+    │                    ├─► International coordination activated
+    │                    └─► All available resources deployed
+    │
+SPREAD Score 30-44 ──► SEVERE (Orange)
+    │                    ├─► Regional teams mobilized
+    │                    ├─► Quarantine preparation initiated
+    │                    └─► Specialist consultation required
+    │
+SPREAD Score 15-29 ──► MODERATE (Yellow)
+    │                    ├─► Local resources sufficient
+    │                    ├─► Enhanced monitoring initiated
+    │                    └─► Escalation thresholds defined
+    │
+SPREAD Score < 15 ───► MINIMAL (Blue)
+                         ├─► Standard observation only
+                         ├─► Natural recovery monitored
+                         └─► Re-assessment at 24 hours
+        </div>
+
+        <p>The framework includes explicit "escalation triggers"—specific observations that require immediate reclassification regardless of SPREAD score. These include:</p>
+
+        <ul>
+            <li>Detection of <a href="semantic-gravity-wells.html">semantic gravity well</a> formation</li>
+            <li>Evidence of <a href="latent-semantic-resonance.html">latent semantic resonance</a> activation</li>
+            <li>Involvement of critical infrastructure semantic systems (legal, medical, emergency services)</li>
+            <li>Cross-linguistic propagation (meaning degradation jumping between language communities)</li>
+        </ul>
+
+        <h2 id="Deployments">Notable deployments<span class="mw-editsection">[<a href="?action=edit&section=5">edit</a>]</span></h2>
+
+        <p>Since the adoption of STP-1.0 in 2021, the protocols have been deployed in 47 confirmed semantic events. Notable deployments include:</p>
+
+        <p><b>Osaka Translation Cascade (2022)</b>: An STP-Severe classification enabled rapid deployment that prevented a machine translation error from propagating into legal documentation affecting international trade agreements. Dr. Nakamura-Reid later cited this case as validation of the protocols' emphasis on speed over comprehensive analysis.<sup><a href="#cite13">[13]</a></sup></p>
+
+        <p><b>Lagos Meaning Compression Event (2023)</b>: Initial assessment classified the event as STP-Moderate, but escalation triggers activated when cross-linguistic propagation was detected. The rapid reclassification to STP-Critical—accomplished within 45 minutes—enabled containment measures that limited the event's ultimate scope.<sup><a href="#cite14">[14]</a></sup></p>
+
+        <p><b>Baltic Semantic Harmonics Incident (2024)</b>: A coordinated response involving teams from five nations demonstrated STP's value for international coordination. All teams used identical assessment criteria, enabling real-time resource sharing without classification disputes.<sup><a href="#cite15">[15]</a></sup></p>
+
+        <h2 id="Limitations">Limitations and criticism<span class="mw-editsection">[<a href="?action=edit&section=6">edit</a>]</span></h2>
+
+        <p>Despite widespread adoption, Semantic Triage Protocols have attracted significant criticism:</p>
+
+        <p><b>Speed vs. accuracy trade-off</b>: The protocols' emphasis on rapid assessment necessarily sacrifices depth of analysis. Dr. <a href="priya-raghavan.html">Priya Raghavan</a> of the <a href="mumbai-institute-for-semantic-preservation.html">Mumbai Institute for Semantic Preservation</a> has argued that the SPREAD framework systematically undervalues semantic phenomena in oral tradition communities, where propagation patterns differ from text-based contexts.<sup><a href="#cite16">[16]</a></sup></p>
+
+        <p><b>Quantification concerns</b>: Critics note that the 0-10 scoring for SPREAD elements introduces false precision. Two assessors evaluating the same event may produce substantially different scores, yet the framework treats these scores as directly comparable.<sup><a href="#cite17">[17]</a></sup></p>
+
+        <p><b>Resource allocation effects</b>: The mandatory response thresholds in STP-3.0 have been criticized for removing professional judgment from field commanders. In 2023, an STP-Critical classification in rural Senegal triggered international coordination requirements that the local team considered disproportionate to the actual event.<sup><a href="#cite18">[18]</a></sup></p>
+
+        <p><b>Computational semantic events</b>: The protocols were designed primarily for human semantic degradation. Dr. <a href="mei-lin-zhou.html">Mei-Lin Zhou</a> has noted that AI-related semantic events—which now constitute approximately 30% of reported incidents—may require fundamentally different assessment criteria.<sup><a href="#cite19">[19]</a></sup></p>
+
+        <p>Dr. Nakamura-Reid has acknowledged these limitations while defending the protocols' core design: "Perfect assessment is impossible in emergency conditions. The question is whether standardized imperfection outperforms fragmented improvisation. The evidence from Manila suggests it does."<sup><a href="#cite20">[20]</a></sup></p>
+
+        <h2 id="Training">Training and certification<span class="mw-editsection">[<a href="?action=edit&section=7">edit</a>]</span></h2>
+
+        <p>STP certification is administered through the International Semantic Emergency Response Consortium (ISERC) and is currently offered at three levels:</p>
+
+        <ul>
+            <li><b>STP-I</b>: Basic recognition and reporting (40-hour course)</li>
+            <li><b>STP-II</b>: Full SPREAD assessment capability (120-hour course plus field practicum)</li>
+            <li><b>STP-III</b>: Team leadership and escalation authority (STP-II plus 200 hours supervised deployment)</li>
+        </ul>
+
+        <p>As of 2025, approximately 340 individuals hold STP-II or higher certification globally. The <a href="st-petersburg-institute-for-emergency-linguistics.html">St. Petersburg Institute for Emergency Linguistics</a>, the <a href="berlin-centre-for-linguistic-preservation.html">Berlin Centre for Linguistic Preservation</a>, and the <a href="oslo-lexical-decay-observatory.html">Oslo Lexical Decay Observatory</a> are the primary certification centers.<sup><a href="#cite21">[21]</a></sup></p>
+
+        <p>Training includes simulation exercises based on historical events. The Manila Meaning Overflow simulation is considered particularly valuable for illustrating the consequences of assessment fragmentation—trainees experience the confusion of conflicting classifications before learning the unified STP approach.<sup><a href="#cite22">[22]</a></sup></p>
+
+        <h2 id="See_also">See also<span class="mw-editsection">[<a href="?action=edit&section=8">edit</a>]</span></h2>
+        <ul>
+            <li><a href="semantic-quarantine-protocols.html">Semantic Quarantine Protocols</a></li>
+            <li><a href="semantic-inheritance-protocols.html">Semantic Inheritance Protocols</a></li>
+            <li><a href="semantic-telemetry-networks.html">Semantic Telemetry Networks</a></li>
+            <li><a href="st-petersburg-institute-for-emergency-linguistics.html">St. Petersburg Institute for Emergency Linguistics</a></li>
+            <li><a href="manila-meaning-overflow.html">Manila Meaning Overflow of 2017</a></li>
+            <li><a href="semantic-drift.html">Semantic Drift</a></li>
+            <li><a href="semantic-anchor-extraction.html">Semantic Anchor Extraction</a></li>
+            <li><a href="recursive-translation-degradation.html">Recursive Translation Degradation</a></li>
+            <li><a href="copenhagen-semantic-cascade.html">Copenhagen Semantic Cascade</a></li>
+            <li><a href="semantic-gravity-wells.html">Semantic Gravity Wells</a></li>
+            <li><a href="semantic-forensics.html">Semantic Forensics</a></li>
+            <li><a href="zagreb-semantic-fracture.html">Zagreb Semantic Fracture of 2011</a></li>
+        </ul>
+
+        <h2 id="References">References<span class="mw-editsection">[<a href="?action=edit&section=9">edit</a>]</span></h2>
+        <ol class="reflist">
+            <li id="cite1"><b>^</b> Nakamura-Reid, E.; Petrov, A.; Papadimitriou, T. (2021). "Semantic Triage Protocols: A Unified Framework for Emergency Assessment". <i>Journal of Emergency Linguistics</i>. 4(2): 112-156.</li>
+            <li id="cite2"><b>^</b> International Semantic Emergency Response Consortium (2021). <i>STP-1.0: Official Protocol Document</i>. Vancouver: ISERC Publications.</li>
+            <li id="cite3"><b>^</b> Petrov, A. (2018). "Coordination Failures in Semantic Emergency Response: Lessons from Manila". <i>St. Petersburg Emergency Linguistics Papers</i>. 7: 23-45.</li>
+            <li id="cite4"><b>^</b> Manila MMO-17 Investigation Committee (2018). <i>Final Report on the Manila Meaning Overflow</i>. ISERC Document 2018-14. pp. 78-112.</li>
+            <li id="cite5"><b>^</b> Nakamura-Reid, E. (2022). "Developing STP: A Three-Year Journey". <i>Vancouver Computational Semantics Working Papers</i>. 15: 1-34.</li>
+            <li id="cite6"><b>^</b> Papadimitriou, T. (2021). "Observable Indicators in Semantic Event Assessment". <i>Athens Digital Humanities Review</i>. 8(3): 234-267.</li>
+            <li id="cite7"><b>^</b> International Semantic Emergency Response Consortium (2024). <i>STP-3.1: Updated Protocol Document</i>. Vancouver: ISERC Publications. pp. 12-34.</li>
+            <li id="cite8"><b>^</b> Lindqvist, T. (2023). "Retrospective STP Analysis of the Copenhagen Semantic Cascade". <i>Computational Meaning Studies</i>. 11(2): 156-178.</li>
+            <li id="cite9"><b>^</b> Nakamura-Reid, E. et al. (2021). "The SPREAD Framework for Field Assessment". <i>Journal of Emergency Linguistics</i>. 4(2): 134-145.</li>
+            <li id="cite10"><b>^</b> Papadimitriou, T.; Kowalczyk, N. (2020). "Calibrating Semantic Event Severity: A Historical Analysis". <i>Computational Linguistics Quarterly</i>. 45(4): 567-589.</li>
+            <li id="cite11"><b>^</b> Kowalczyk, N. (2021). "The Papadimitriou Recursion Probe: Rapid Detection of Semantic Feedback Loops". <i>Warsaw Computational Semantics Papers</i>. 12: 78-95.</li>
+            <li id="cite12"><b>^</b> ISERC Protocol Committee (2023). "Mandatory Action Thresholds in STP-3.0". <i>Emergency Response Standards Quarterly</i>. 2(1): 12-24.</li>
+            <li id="cite13"><b>^</b> Nakamura-Reid, E. (2023). "The Osaka Deployment: A Case Study in Rapid Triage". <i>Pacific Rim Semantics Journal</i>. 7(2): 45-67.</li>
+            <li id="cite14"><b>^</b> Okonkwo, A.; Asante, K. (2024). "Escalation Protocol Performance in the Lagos Event". <i>African Journal of Linguistic Emergency Studies</i>. 3(1): 34-56.</li>
+            <li id="cite15"><b>^</b> Baltic Semantic Response Coalition (2024). <i>Joint Report on the 2024 Baltic Semantic Harmonics Incident</i>. Tallinn: BSRC Press.</li>
+            <li id="cite16"><b>^</b> Raghavan, P. (2023). "Oral Tradition Blind Spots in Semantic Triage". <i>Mumbai Papers on Semantic Preservation</i>. 9: 123-145.</li>
+            <li id="cite17"><b>^</b> Morrison, K. (2022). "Inter-Rater Reliability in SPREAD Assessment: A Critical Analysis". <i>Edinburgh Temporal Studies Quarterly</i>. 18(3): 234-256.</li>
+            <li id="cite18"><b>^</b> Diallo, M. (2024). "Disproportionate Response: The Dakar Incident and Mandatory Thresholds". <i>West African Emergency Studies</i>. 5(2): 89-112.</li>
+            <li id="cite19"><b>^</b> Zhou, M. (2024). "Computational Semantics and the Limits of STP". <i>Beijing Academy Papers</i>. 23: 45-67.</li>
+            <li id="cite20"><b>^</b> Nakamura-Reid, E. (2024). "Defending Standardized Assessment: A Response to Critics". <i>Journal of Emergency Linguistics</i>. 7(1): 12-34.</li>
+            <li id="cite21"><b>^</b> ISERC Certification Office (2025). <i>Annual Certification Report 2024</i>. Vancouver: ISERC Publications.</li>
+            <li id="cite22"><b>^</b> Petrov, A. (2023). "Training for Coordination: Simulation-Based STP Education". <i>Emergency Linguistics Pedagogy</i>. 4(2): 67-89.</li>
+        </ol>
+
+        <div id="catlinks">
+            <b>Categories:</b> <a href="#">Emergency linguistics</a> | <a href="#">Semantic protocols</a> | <a href="#">Assessment methodologies</a> | <a href="#">2021 introductions</a> | <a href="#">International standards</a>
+        </div>
+    </div>
+
+</body>
+</html>

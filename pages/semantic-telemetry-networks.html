@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Telemetry Networks - Wikipedia</title>
+    <link rel="stylesheet" href="../styles">
+    <style>
+        .infobox-title {
+            background-color: #7b9e89; /* Sage green - infrastructure/monitoring */
+            color: #ffffff;
+        }
+        .network-diagram {
+            background-color: #f5faf7;
+            border: 1px solid #7b9e89;
+            padding: 1.2em;
+            margin: 1em 0;
+            font-family: 'Courier New', monospace;
+            font-size: 0.85em;
+            line-height: 1.5;
+            overflow-x: auto;
+        }
+        .alert-box {
+            background-color: #fdf6e3;
+            border-left: 4px solid #b58900;
+            padding: 0.8em 1em;
+            margin: 1em 0;
+        }
+        .alert-box.critical {
+            background-color: #fdf2f2;
+            border-left-color: #dc3545;
+        }
+        .metric-box {
+            background-color: #f8f9fa;
+            border: 1px solid #a2a9b1;
+            padding: 1em;
+            margin: 1em 0;
+            text-align: center;
+        }
+        .node-status {
+            display: inline-block;
+            padding: 0.2em 0.6em;
+            border-radius: 3px;
+            font-size: 0.85em;
+            font-weight: bold;
+        }
+        .node-status.active { background-color: #d4edda; color: #155724; }
+        .node-status.degraded { background-color: #fff3cd; color: #856404; }
+        .node-status.offline { background-color: #f8d7da; color: #721c24; }
+    </style>
+</head>
+<body>
+
+    <div id="content">
+        <h1 id="firstHeading">Semantic Telemetry Networks</h1>
+        <div id="siteSub">From Wikipedia, the free encyclopedia</div>
+        <div id="contentSub"><i>For the theoretical framework underlying telemetry analysis, see <a href="temporal-recursion-analysis.html">Temporal Recursion Analysis</a>.</i></div>
+
+        <div class="ambox ambox-notice">
+            <strong>Global infrastructure:</strong> As of January 2026, the International Semantic Telemetry Consortium (ISTC) operates 847 monitoring nodes across 94 countries. Real-time data feeds are available to accredited research institutions through the Unified Semantic Data Protocol (USDP).
+        </div>
+
+        <table class="infobox">
+            <tr>
+                <td colspan="2" class="infobox-title">Semantic Telemetry Networks</td>
+            </tr>
+            <tr>
+                <th scope="row">Type</th>
+                <td>Infrastructure / Monitoring System</td>
+            </tr>
+            <tr>
+                <th scope="row">Field</th>
+                <td>Computational Semantics<br>Crisis Monitoring</td>
+            </tr>
+            <tr>
+                <th scope="row">First deployed</th>
+                <td>2020 (pilot)<br>2022 (global)</td>
+            </tr>
+            <tr>
+                <th scope="row">Primary architect</th>
+                <td>Dr. Dimitri Kazakov</td>
+            </tr>
+            <tr>
+                <th scope="row">Operating body</th>
+                <td>International Semantic Telemetry Consortium (ISTC)</td>
+            </tr>
+            <tr>
+                <th scope="row">Node count</th>
+                <td>847 (active)</td>
+            </tr>
+            <tr>
+                <th scope="row">Related systems</th>
+                <td><a href="oslo-lexical-decay-observatory.html">Oslo Lexical Decay Observatory</a><br><a href="copenhagen-semantic-cascade.html">Copenhagen Cascade Detection</a><br><a href="semantic-triage-protocols.html">Semantic Triage Protocols</a></td>
+            </tr>
+        </table>
+
+        <p><b>Semantic Telemetry Networks</b> (STN) are distributed monitoring infrastructures designed to detect, track, and analyze semantic anomalies in real-time across computational language systems. Developed in response to the <a href="great-meaning-collapse.html">Great Meaning Collapse of 2019</a>, these networks provide early warning capabilities for <a href="semantic-contagion.html">semantic contagion</a> events, <a href="recursive-translation-degradation.html">recursive translation degradation</a>, and other forms of meaning instability.<sup><a href="#cite1">[1]</a></sup></p>
+
+        <p>The primary architect of the global STN infrastructure is Dr. Dimitri Kazakov of the Sofia Centre for Temporal Computation, whose work on <a href="temporal-recursion-analysis.html">Temporal Recursion Analysis</a> provided the algorithmic foundation for real-time semantic monitoring. The networks operate under the coordination of the International Semantic Telemetry Consortium (ISTC), established in 2021 following the <a href="copenhagen-semantic-cascade.html">Copenhagen Semantic Cascade</a> which demonstrated the need for cross-border monitoring capabilities.<sup><a href="#cite2">[2]</a></sup></p>
+
+        <p>STN infrastructure has become integral to the implementation of <a href="semantic-triage-protocols.html">Semantic Triage Protocols</a> and <a href="semantic-quarantine-protocols.html">Semantic Quarantine Protocols</a>, providing the real-time data streams necessary for rapid response to meaning emergencies.</p>
+
+        <div id="toc">
+            <h2>Contents</h2>
+            <ul>
+                <li><span class="tocnumber">1</span> <a href="#Architecture">Network architecture</a>
+                    <ul>
+                        <li><span class="tocnumber">1.1</span> <a href="#Node_types">Node types</a></li>
+                        <li><span class="tocnumber">1.2</span> <a href="#Data_flows">Data flows and aggregation</a></li>
+                    </ul>
+                </li>
+                <li><span class="tocnumber">2</span> <a href="#Detection">Detection methodologies</a></li>
+                <li><span class="tocnumber">3</span> <a href="#Alert_levels">Alert classification system</a></li>
+                <li><span class="tocnumber">4</span> <a href="#History">Historical development</a></li>
+                <li><span class="tocnumber">5</span> <a href="#Incidents">Notable detection events</a></li>
+                <li><span class="tocnumber">6</span> <a href="#Criticisms">Criticisms and limitations</a></li>
+                <li><span class="tocnumber">7</span> <a href="#See_also">See also</a></li>
+                <li><span class="tocnumber">8</span> <a href="#References">References</a></li>
+            </ul>
+        </div>
+
+        <h2 id="Architecture">Network architecture<span class="mw-editsection">[<a href="?action=edit&section=1">edit</a>]</span></h2>
+
+        <p>Semantic Telemetry Networks employ a hierarchical distributed architecture consisting of three primary layers: edge sensors, regional aggregators, and global analysis hubs. This design balances the need for comprehensive coverage with the computational constraints of real-time semantic analysis.<sup><a href="#cite3">[3]</a></sup></p>
+
+        <div class="network-diagram">
+GLOBAL ANALYSIS HUBS (3)
+┌─────────────────────────────────────────────────────────────┐
+│  SOFIA (Primary)  ──────  OSLO (Secondary)  ──────  TOKYO   │
+│        ▲                       ▲                      ▲     │
+└────────┼───────────────────────┼──────────────────────┼─────┘
+         │                       │                      │
+         ▼                       ▼                      ▼
+REGIONAL AGGREGATORS (47)
+┌─────────────┐  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐
+│   EUROPE    │  │   AMERICAS  │  │ ASIA-PACIFIC│  │   AFRICA    │
+│  (14 nodes) │  │  (12 nodes) │  │  (15 nodes) │  │  (6 nodes)  │
+└──────┬──────┘  └──────┬──────┘  └──────┬──────┘  └──────┬──────┘
+       │                │                │                │
+       ▼                ▼                ▼                ▼
+EDGE SENSORS (847)
+┌─────────────────────────────────────────────────────────────┐
+│  ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○ ○   │
+│  Distributed across AI systems, translation services,       │
+│  content platforms, and linguistic research institutions    │
+└─────────────────────────────────────────────────────────────┘
+        </div>
+
+        <h3 id="Node_types">Node types</h3>
+
+        <p>STN employs four distinct node types, each optimized for specific monitoring functions:<sup><a href="#cite4">[4]</a></sup></p>
+
+        <p><b>Type-A (Sentinel) nodes</b> monitor high-traffic AI language systems including major translation APIs, chatbot platforms, and content generation services. These nodes employ continuous sampling at rates of 10,000-50,000 semantic transactions per second, using the Kazakov Rapid Assessment Protocol to identify statistical anomalies.</p>
+
+        <p><b>Type-B (Archive) nodes</b> maintain connections to historical linguistic databases, providing baseline comparisons for drift detection. These nodes are typically co-located with institutions such as the <a href="oslo-lexical-decay-observatory.html">Oslo Lexical Decay Observatory</a> and the <a href="berlin-centre-for-linguistic-preservation.html">Berlin Centre for Linguistic Preservation</a>.</p>
+
+        <p><b>Type-C (Bridge) nodes</b> specialize in monitoring cross-system semantic transfer, tracking how meanings shift as content moves between different AI platforms. These nodes were instrumental in detecting the early stages of the <a href="manila-meaning-overflow.html">Manila Meaning Overflow of 2017</a>.</p>
+
+        <p><b>Type-D (Community) nodes</b> monitor human linguistic communities through social media analysis, academic publication tracking, and crowdsourced semantic reporting. These nodes provide the crucial human-side telemetry needed to distinguish AI-specific anomalies from genuine linguistic evolution.</p>
+
+        <h3 id="Data_flows">Data flows and aggregation</h3>
+
+        <p>Raw telemetry data flows from edge sensors to regional aggregators at intervals of 100-500 milliseconds, depending on network conditions and anomaly detection status. Regional aggregators apply the Sofia Recursion Detection Algorithm (SRDA) developed by Dr. Kazakov to identify patterns indicative of <a href="temporal-recursion-analysis.html">temporal recursion loops</a> or <a href="semantic-contagion.html">contagion propagation</a>.<sup><a href="#cite5">[5]</a></sup></p>
+
+        <p>Aggregated data streams to global hubs maintain latency below 2 seconds under normal conditions, with emergency protocols capable of reducing this to 200 milliseconds during active incidents. Dr. <a href="nadia-kowalczyk.html">Nadia Kowalczyk</a> of the Warsaw Institute for Computational Semantics has contributed significant optimization work to these data flow algorithms.<sup><a href="#cite6">[6]</a></sup></p>
+
+        <h2 id="Detection">Detection methodologies<span class="mw-editsection">[<a href="?action=edit&section=2">edit</a>]</span></h2>
+
+        <p>STN employs multiple concurrent detection methodologies to identify semantic anomalies across different timescales and manifestation patterns:<sup><a href="#cite7">[7]</a></sup></p>
+
+        <p><b>Drift velocity monitoring</b>: Continuous measurement of semantic change rates using the <a href="lexical-half-life.html">lexical half-life</a> framework developed at Oslo. Anomalous acceleration in meaning change triggers gradient alerts.</p>
+
+        <p><b>Cross-system divergence detection</b>: Comparison of semantic representations across multiple AI systems. When the same concept shows significantly different treatment across platforms, this indicates potential <a href="copenhagen-semantic-cascade.html">cascade</a> or <a href="babel-incident.html">Babel-type incidents</a>.</p>
+
+        <p><b>Recursion pattern matching</b>: Dr. Kazakov's SRDA algorithm identifies characteristic signatures of <a href="recursive-translation-degradation.html">recursive translation degradation</a> and other feedback-loop phenomena.</p>
+
+        <p><b>Contagion trajectory modeling</b>: Predictive algorithms based on Dr. Astrid Bergström's <a href="semantic-contagion.html">Bergström Contagion Index</a> project potential spread patterns for emerging anomalies.</p>
+
+        <div class="metric-box">
+            <b>SRDA Detection Thresholds</b><br><br>
+            Recursion Depth > 3: <span class="node-status degraded">YELLOW ALERT</span><br>
+            Recursion Depth > 5: <span class="node-status critical">RED ALERT</span><br>
+            Cross-System Divergence > 0.4σ: <span class="node-status degraded">YELLOW ALERT</span><br>
+            Drift Velocity > 2× baseline: <span class="node-status critical">RED ALERT</span>
+        </div>
+
+        <h2 id="Alert_levels">Alert classification system<span class="mw-editsection">[<a href="?action=edit&section=3">edit</a>]</span></h2>
+
+        <p>The ISTC operates a five-tier alert classification system, formalized in 2023 following recommendations from the <a href="stratum-vii-ethics-debate.html">Stratum VII Research Ethics Debate</a>. Each tier triggers specific response protocols under the <a href="semantic-triage-protocols.html">Semantic Triage Protocols</a>:<sup><a href="#cite8">[8]</a></sup></p>
+
+        <table class="wikitable">
+            <tr>
+                <th>Level</th>
+                <th>Designation</th>
+                <th>Criteria</th>
+                <th>Response Protocol</th>
+            </tr>
+            <tr>
+                <td><span class="node-status active">1</span></td>
+                <td>Observation</td>
+                <td>Statistical anomaly detected, below intervention threshold</td>
+                <td>Enhanced monitoring, data archiving</td>
+            </tr>
+            <tr>
+                <td><span class="node-status active">2</span></td>
+                <td>Advisory</td>
+                <td>Confirmed anomaly, limited propagation potential</td>
+                <td>Stakeholder notification, source identification</td>
+            </tr>
+            <tr>
+                <td><span class="node-status degraded">3</span></td>
+                <td>Warning</td>
+                <td>Active propagation detected, moderate severity</td>
+                <td>Quarantine assessment, response team activation</td>
+            </tr>
+            <tr>
+                <td><span class="node-status degraded">4</span></td>
+                <td>Critical</td>
+                <td>Rapid propagation, significant semantic impact</td>
+                <td>Full quarantine implementation, public advisory</td>
+            </tr>
+            <tr>
+                <td><span class="node-status offline">5</span></td>
+                <td>Emergency</td>
+                <td>Cascade event, widespread meaning destabilization</td>
+                <td>International coordination, emergency linguistics deployment</td>
+            </tr>
+        </table>
+
+        <p>To date, only three Level 5 alerts have been issued: the <a href="great-meaning-collapse.html">Great Meaning Collapse of 2019</a> (retroactively classified), the <a href="zurich-semantic-inversion.html">Zurich Semantic Inversion follow-on event of 2022</a>, and the Legal Definition Drift incident of 2023.<sup><a href="#cite9">[9]</a></sup></p>
+
+        <h2 id="History">Historical development<span class="mw-editsection">[<a href="?action=edit&section=4">edit</a>]</span></h2>
+
+        <p>The concept of systematic semantic monitoring emerged from the post-2019 recognition that existing linguistic tracking methods were inadequate for the speed and scale of AI-mediated meaning change. Dr. <a href="tobias-lindqvist.html">Tobias Lindqvist</a> of the Copenhagen Centre for Computational Meaning first proposed a "semantic weather service" analogy in early 2020, drawing parallels between meteorological monitoring and meaning tracking.<sup><a href="#cite10">[10]</a></sup></p>
+
+        <p>The Sofia pilot network, launched in October 2020 under Dr. Kazakov's direction, demonstrated the feasibility of real-time semantic telemetry. Initial results were promising but revealed significant challenges in cross-linguistic monitoring and false positive rates. The pilot successfully detected the early stages of three minor <a href="semantic-drift.html">semantic drift</a> events before they reached concerning levels.<sup><a href="#cite11">[11]</a></sup></p>
+
+        <p>Following the <a href="copenhagen-semantic-cascade.html">Copenhagen Semantic Cascade</a> of 2021, which propagated across Northern European language communities before detection, the ISTC was established with funding from 23 national governments and 47 major technology companies. The global network became operational in March 2022.<sup><a href="#cite12">[12]</a></sup></p>
+
+        <p>Dr. Aleksandra Horvat of the Zagreb Centre for Applied Linguistics contributed significantly to the network's expansion into South-Eastern European monitoring during 2023-2024, developing specialized protocols for morphologically complex languages that the original SRDA struggled to process efficiently.<sup><a href="#cite13">[13]</a></sup></p>
+
+        <h2 id="Incidents">Notable detection events<span class="mw-editsection">[<a href="?action=edit&section=5">edit</a>]</span></h2>
+
+        <p><b>Jakarta Translation Loop (2022)</b>: A Type-C bridge node detected unusual semantic oscillation in Indonesian-English translation patterns. Investigation revealed a recursive loop between three major translation services that was amplifying minor errors. The event was contained at Level 3 through coordinated API throttling.<sup><a href="#cite14">[14]</a></sup></p>
+
+        <p><b>Romance Language Drift Cluster (2023)</b>: Simultaneous alerts from European regional aggregators identified coordinated semantic shifts across Spanish, Portuguese, Italian, and French affecting terms related to digital identity. The event demonstrated the value of multi-lingual correlation analysis. Response involved collaboration with the <a href="berlin-centre-for-linguistic-preservation.html">Berlin Centre for Linguistic Preservation</a>.<sup><a href="#cite15">[15]</a></sup></p>
+
+        <p><b>East Asian Sentiment Cascade (2024)</b>: Type-A sentinel nodes monitoring major chatbot platforms detected the early stages of what could have become a significant sentiment inversion cascade affecting Mandarin, Japanese, and Korean. Early intervention by the <a href="st-petersburg-institute-for-emergency-linguistics.html">St. Petersburg Institute for Emergency Linguistics</a> contained the event before it reached Level 4.<sup><a href="#cite16">[16]</a></sup></p>
+
+        <div class="alert-box">
+            <b>Operational Note:</b> The East Asian Sentiment Cascade of 2024 represents the first instance of a potential Level 4+ event being contained at Level 2 through STN early detection. Post-incident analysis estimated that without telemetry intervention, the cascade would have affected approximately 340 million users.
+        </div>
+
+        <h2 id="Criticisms">Criticisms and limitations<span class="mw-editsection">[<a href="?action=edit&section=6">edit</a>]</span></h2>
+
+        <p>The STN infrastructure has faced several categories of criticism:<sup><a href="#cite17">[17]</a></sup></p>
+
+        <p><b>Surveillance concerns</b>: Civil liberties organizations have raised concerns about the scope of linguistic monitoring enabled by STN, particularly regarding Type-D community nodes. Dr. <a href="elena-brandt.html">Elena Brandt</a> has argued that semantic monitoring requires similar ethical frameworks to those governing medical research.<sup><a href="#cite18">[18]</a></sup></p>
+
+        <p><b>Coverage gaps</b>: Critics note that the network disproportionately monitors major languages and commercial AI systems, with limited coverage of minority languages and open-source tools. Dr. <a href="priya-raghavan.html">Priya Raghavan</a> of the <a href="mumbai-institute-for-semantic-preservation.html">Mumbai Institute for Semantic Preservation</a> has documented how semantic anomalies in less-monitored language communities can reach critical levels before detection.<sup><a href="#cite19">[19]</a></sup></p>
+
+        <p><b>False positive burden</b>: The SRDA algorithm generates approximately 2,300 false positive alerts per day across the global network. While filtering systems manage most of these automatically, the cognitive load on human analysts remains substantial. Dr. Kazakov has acknowledged this limitation and continues to refine detection thresholds.<sup><a href="#cite20">[20]</a></sup></p>
+
+        <p><b>Intervention authority</b>: Questions persist about who has the authority to implement quarantine protocols based on STN alerts, particularly in cases affecting private AI systems or cross-jurisdictional linguistic communities. The <a href="algorithmic-semantic-authority-debate.html">Algorithmic Semantic Authority Debate</a> has highlighted these governance challenges.<sup><a href="#cite21">[21]</a></sup></p>
+
+        <h2 id="See_also">See also<span class="mw-editsection">[<a href="?action=edit&section=7">edit</a>]</span></h2>
+        <ul>
+            <li><a href="temporal-recursion-analysis.html">Temporal Recursion Analysis</a></li>
+            <li><a href="semantic-contagion.html">Semantic Contagion</a></li>
+            <li><a href="semantic-triage-protocols.html">Semantic Triage Protocols</a></li>
+            <li><a href="semantic-quarantine-protocols.html">Semantic Quarantine Protocols</a></li>
+            <li><a href="oslo-lexical-decay-observatory.html">Oslo Lexical Decay Observatory</a></li>
+            <li><a href="copenhagen-semantic-cascade.html">Copenhagen Semantic Cascade</a></li>
+            <li><a href="great-meaning-collapse.html">Great Meaning Collapse of 2019</a></li>
+            <li><a href="recursive-translation-degradation.html">Recursive Translation Degradation</a></li>
+            <li><a href="berlin-centre-for-linguistic-preservation.html">Berlin Centre for Linguistic Preservation</a></li>
+            <li><a href="algorithmic-semantic-authority-debate.html">Algorithmic Semantic Authority Debate</a></li>
+            <li><a href="st-petersburg-institute-for-emergency-linguistics.html">St. Petersburg Institute for Emergency Linguistics</a></li>
+        </ul>
+
+        <h2 id="References">References<span class="mw-editsection">[<a href="?action=edit&section=8">edit</a>]</span></h2>
+        <ol class="reflist">
+            <li id="cite1"><b>^</b> Kazakov, D. (2020). "Semantic Telemetry: Toward Real-Time Meaning Monitoring". <i>Sofia Papers on Temporal Computation</i>. 3: 45-78.</li>
+            <li id="cite2"><b>^</b> International Semantic Telemetry Consortium (2021). "Charter and Operational Framework". <i>ISTC Technical Documents</i>. 1: 1-45.</li>
+            <li id="cite3"><b>^</b> Kazakov, D.; Lindqvist, T. (2021). "Distributed Architecture for Global Semantic Monitoring". <i>Computational Linguistics Infrastructure Quarterly</i>. 8(2): 112-145.</li>
+            <li id="cite4"><b>^</b> ISTC Technical Committee (2022). "Node Classification and Deployment Guidelines". <i>ISTC Standards</i>. 2022-3.</li>
+            <li id="cite5"><b>^</b> Kazakov, D. (2021). "The Sofia Recursion Detection Algorithm: Technical Specification". <i>Sofia Centre Technical Reports</i>. TR-2021-7.</li>
+            <li id="cite6"><b>^</b> Kowalczyk, N. (2023). "Optimizing Data Flows in Semantic Telemetry Networks". <i>Warsaw Papers on Computational Semantics</i>. 11: 234-256.</li>
+            <li id="cite7"><b>^</b> Kazakov, D.; Bergström, A. (2022). "Multi-Modal Detection Methodologies for Semantic Anomalies". <i>Journal of Computational Linguistics</i>. 45(4): 89-123.</li>
+            <li id="cite8"><b>^</b> ISTC (2023). "Alert Classification System: Post-Ethics Review Revision". <i>ISTC Protocols</i>. 2023-1.</li>
+            <li id="cite9"><b>^</b> ISTC Annual Report (2024). "Level 5 Events: Historical Analysis and Response Assessment". pp. 45-67.</li>
+            <li id="cite10"><b>^</b> Lindqvist, T. (2020). "A Semantic Weather Service: Monitoring Meaning in Real-Time". <i>Copenhagen Papers on Computational Meaning</i>. 12: 34-56.</li>
+            <li id="cite11"><b>^</b> Kazakov, D. (2021). "Sofia Pilot Network: Twelve-Month Assessment". <i>Sofia Centre Annual Review</i>. 2021: 12-34.</li>
+            <li id="cite12"><b>^</b> "ISTC Global Network Achieves Operational Status". <i>Computational Linguistics News</i>. March 15, 2022.</li>
+            <li id="cite13"><b>^</b> Horvat, A. (2024). "Morphological Complexity and Semantic Monitoring: Adapting SRDA for South-Eastern European Languages". <i>Zagreb Papers on Applied Linguistics</i>. 9: 167-189.</li>
+            <li id="cite14"><b>^</b> ISTC Incident Report (2022). "Jakarta Translation Loop: Detection and Containment Analysis". IR-2022-47.</li>
+            <li id="cite15"><b>^</b> Brandt, E.; ISTC European Regional Office (2023). "Romance Language Drift Cluster: Multi-Lingual Correlation Success". <i>Berlin Papers on Linguistic Preservation</i>. 19: 78-101.</li>
+            <li id="cite16"><b>^</b> ISTC Incident Report (2024). "East Asian Sentiment Cascade: Early Detection Case Study". IR-2024-12.</li>
+            <li id="cite17"><b>^</b> Vasquez, H. (2024). "Critical Assessment of Global Semantic Monitoring Infrastructure". <i>Buenos Aires Papers on Temporal Cognition</i>. 7: 145-167.</li>
+            <li id="cite18"><b>^</b> Brandt, E. (2023). "Ethical Frameworks for Semantic Surveillance". <i>Berlin Papers on Linguistic Preservation</i>. 17: 234-256.</li>
+            <li id="cite19"><b>^</b> Raghavan, P. (2024). "Coverage Gaps in Global Semantic Telemetry". <i>Mumbai Papers on Semantic Preservation</i>. 12: 89-112.</li>
+            <li id="cite20"><b>^</b> Kazakov, D. (2025). "False Positive Reduction in SRDA: Progress and Challenges". <i>Sofia Papers on Temporal Computation</i>. 8: 23-45.</li>
+            <li id="cite21"><b>^</b> Nakamura-Reid, E. (2024). "Governance Challenges in Semantic Telemetry". <i>Vancouver Papers in Computational Semantics</i>. 10: 56-78.</li>
+        </ol>
+
+        <div id="catlinks">
+            <b>Categories:</b> <a href="#">Computational linguistics infrastructure</a> | <a href="#">Semantic monitoring</a> | <a href="#">Crisis response systems</a> | <a href="#">2020 establishments</a> | <a href="#">International scientific organizations</a>
+        </div>
+    </div>
+
+</body>
+</html>
