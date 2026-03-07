@@ -24,7 +24,7 @@
     searchIndexPath: BASE_PATH + "api/search-index.json",
     fragmentsPath: BASE_PATH + "fragments/",
     randomPath: BASE_PATH + "api/random.json",
-    pagesPath: BASE_PATH + "pages/",
+    pagesPath: BASE_PATH + "wiki/",
     debounceDelay: 200,
     maxResults: 20,
     previewDelay: 300,
