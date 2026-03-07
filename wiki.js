@@ -5,8 +5,8 @@
  * Works with pre-generated static index files.
  */
 
-(function() {
-  'use strict';
+(function () {
+  "use strict";
 
   // Configuration - paths are relative to document root
   const BASE_PATH = getBasePath();
@@ -14,17 +14,17 @@
   function getBasePath() {
     const path = window.location.pathname;
     // If we're in a subdirectory (pages/, categories/), go up one level
-    if (path.includes('/wiki/') || path.includes('/categories/')) {
-      return '../';
+    if (path.includes("/wiki/") || path.includes("/categories/")) {
+      return "../";
     }
-    return '';
+    return "";
   }
 
   const CONFIG = {
-    searchIndexPath: BASE_PATH + 'api/search-index.json',
-    fragmentsPath: BASE_PATH + 'fragments/',
-    randomPath: BASE_PATH + 'api/random.json',
-    pagesPath: BASE_PATH + 'pages/',
+    searchIndexPath: BASE_PATH + "api/search-index.json",
+    fragmentsPath: BASE_PATH + "fragments/",
+    randomPath: BASE_PATH + "api/random.json",
+    pagesPath: BASE_PATH + "pages/",
     debounceDelay: 200,
     maxResults: 20,
     previewDelay: 300,
@@ -56,11 +56,11 @@
     searchIndexLoading = true;
     try {
       const response = await fetch(CONFIG.searchIndexPath);
-      if (!response.ok) throw new Error('Failed to load search index');
+      if (!response.ok) throw new Error("Failed to load search index");
       searchIndex = await response.json();
       return searchIndex;
     } catch (error) {
-      console.error('Error loading search index:', error);
+      console.error("Error loading search index:", error);
       searchIndexLoading = false;
       return [];
     }
@@ -72,10 +72,13 @@
   function searchArticles(query, index) {
     if (!query || query.length < 2) return [];
 
-    const terms = query.toLowerCase().split(/\s+/).filter(t => t.length > 1);
+    const terms = query
+      .toLowerCase()
+      .split(/\s+/)
+      .filter((t) => t.length > 1);
     if (terms.length === 0) return [];
 
-    const scored = index.map(article => {
+    const scored = index.map((article) => {
       let score = 0;
 
       // Title match (highest priority)
@@ -87,7 +90,7 @@
       }
 
       // Summary match
-      const summaryLower = (article.summary || '').toLowerCase();
+      const summaryLower = (article.summary || "").toLowerCase();
       for (const term of terms) {
         if (summaryLower.includes(term)) score += 5;
       }
@@ -95,7 +98,7 @@
       // Keyword match
       const keywords = article.keywords || [];
       for (const term of terms) {
-        if (keywords.some(k => k.includes(term))) score += 10;
+        if (keywords.some((k) => k.includes(term))) score += 10;
       }
 
       // Type/category match
@@ -109,7 +112,7 @@
     });
 
     return scored
-      .filter(a => a.score > 0)
+      .filter((a) => a.score > 0)
       .sort((a, b) => b.score - a.score)
       .slice(0, CONFIG.maxResults);
   }
@@ -122,21 +125,23 @@
       return `<div class="search-no-results">No articles found for "${escapeHtml(query)}"</div>`;
     }
 
-    const items = results.map(article => {
-      const typeClass = `type-${article.type || 'article'}`;
-      return `
+    const items = results
+      .map((article) => {
+        const typeClass = `type-${article.type || "article"}`;
+        return `
         <li class="search-result-item">
           <a href="${CONFIG.pagesPath}${article.filename}" class="search-result-link">
             <span class="search-result-title">${highlightMatch(article.title, query)}</span>
-            <span class="type-badge ${typeClass}">${article.type || 'article'}</span>
+            <span class="type-badge ${typeClass}">${article.type || "article"}</span>
           </a>
-          <p class="search-result-summary">${highlightMatch(article.summary || '', query)}</p>
+          <p class="search-result-summary">${highlightMatch(article.summary || "", query)}</p>
         </li>
       `;
-    }).join('');
+      })
+      .join("");
 
     return `
-      <div class="search-results-header">${results.length} result${results.length === 1 ? '' : 's'}</div>
+      <div class="search-results-header">${results.length} result${results.length === 1 ? "" : "s"}</div>
       <ul class="search-results-list">${items}</ul>
     `;
   }
@@ -148,12 +153,15 @@
     if (!query || !text) return escapeHtml(text);
 
     const escaped = escapeHtml(text);
-    const terms = query.toLowerCase().split(/\s+/).filter(t => t.length > 1);
+    const terms = query
+      .toLowerCase()
+      .split(/\s+/)
+      .filter((t) => t.length > 1);
 
     let result = escaped;
     for (const term of terms) {
-      const regex = new RegExp(`(${escapeRegex(term)})`, 'gi');
-      result = result.replace(regex, '<mark>$1</mark>');
+      const regex = new RegExp(`(${escapeRegex(term)})`, "gi");
+      result = result.replace(regex, "<mark>$1</mark>");
     }
 
     return result;
@@ -163,7 +171,7 @@
    * Escape HTML special characters
    */
   function escapeHtml(text) {
-    const div = document.createElement('div');
+    const div = document.createElement("div");
     div.textContent = text;
     return div.innerHTML;
   }
@@ -172,7 +180,7 @@
    * Escape regex special characters
    */
   function escapeRegex(str) {
-    return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   }
 
   /**
@@ -180,7 +188,7 @@
    */
   function debounce(func, wait) {
     let timeout;
-    return function(...args) {
+    return function (...args) {
       clearTimeout(timeout);
       timeout = setTimeout(() => func.apply(this, args), wait);
     };
@@ -192,26 +200,28 @@
   async function handleSearch(event) {
     const input = event.target;
     const query = input.value.trim();
-    const resultsContainer = document.getElementById('search-results');
+    const resultsContainer = document.getElementById("search-results");
 
     if (!resultsContainer) return;
 
     if (query.length < 2) {
-      resultsContainer.innerHTML = '';
-      resultsContainer.classList.remove('active');
+      resultsContainer.innerHTML = "";
+      resultsContainer.classList.remove("active");
       return;
     }
 
     // Show loading state
-    resultsContainer.innerHTML = '<div class="search-loading">Searching...</div>';
-    resultsContainer.classList.add('active');
+    resultsContainer.innerHTML =
+      '<div class="search-loading">Searching...</div>';
+    resultsContainer.classList.add("active");
 
     try {
       const index = await loadSearchIndex();
       const results = searchArticles(query, index);
       resultsContainer.innerHTML = renderSearchResults(results, query);
     } catch (error) {
-      resultsContainer.innerHTML = '<div class="search-error">Search unavailable</div>';
+      resultsContainer.innerHTML =
+        '<div class="search-error">Search unavailable</div>';
     }
   }
 
@@ -219,11 +229,11 @@
    * Show article preview on hover
    */
   async function showPreview(link, event) {
-    const href = link.getAttribute('href');
-    if (!href || !href.endsWith('.html')) return;
+    const href = link.getAttribute("href");
+    if (!href || !href.endsWith(".html")) return;
 
     // Extract filename
-    const filename = href.split('/').pop();
+    const filename = href.split("/").pop();
     const fragmentUrl = CONFIG.fragmentsPath + filename;
 
     // Clear any existing preview timeout
@@ -239,7 +249,7 @@
         const html = await response.text();
         showPreviewPopover(html, link, event);
       } catch (error) {
-        console.error('Error loading preview:', error);
+        console.error("Error loading preview:", error);
       }
     }, CONFIG.previewDelay);
   }
@@ -250,8 +260,8 @@
   function showPreviewPopover(html, link, event) {
     hidePreview();
 
-    const popover = document.createElement('div');
-    popover.className = 'preview-popover';
+    const popover = document.createElement("div");
+    popover.className = "preview-popover";
     popover.innerHTML = html;
 
     document.body.appendChild(popover);
@@ -278,10 +288,10 @@
     popover.style.top = `${Math.max(10, top + window.scrollY)}px`;
 
     // Add mouse event listeners to keep popover open when hovering over it
-    popover.addEventListener('mouseenter', () => {
+    popover.addEventListener("mouseenter", () => {
       clearTimeout(previewTimeout);
     });
-    popover.addEventListener('mouseleave', hidePreview);
+    popover.addEventListener("mouseleave", hidePreview);
   }
 
   /**
@@ -305,7 +315,7 @@
   async function navigateRandom() {
     try {
       const response = await fetch(CONFIG.randomPath);
-      if (!response.ok) throw new Error('Failed to load random data');
+      if (!response.ok) throw new Error("Failed to load random data");
 
       const data = await response.json();
       const articles = data.articles;
@@ -315,7 +325,7 @@
         window.location.href = CONFIG.pagesPath + random.filename;
       }
     } catch (error) {
-      console.error('Error navigating to random article:', error);
+      console.error("Error navigating to random article:", error);
       // Fallback: try to get index and pick from search index
       try {
         const index = await loadSearchIndex();
@@ -324,7 +334,7 @@
           window.location.href = CONFIG.pagesPath + random.filename;
         }
       } catch {
-        alert('Unable to find random article');
+        alert("Unable to find random article");
       }
     }
   }
@@ -333,12 +343,15 @@
    * Close search results when clicking outside
    */
   function handleClickOutside(event) {
-    const searchContainer = document.querySelector('.search-container');
-    const resultsContainer = document.getElementById('search-results');
+    const searchContainer = document.querySelector(".search-container");
+    const resultsContainer = document.getElementById("search-results");
 
-    if (searchContainer && resultsContainer &&
-        !searchContainer.contains(event.target)) {
-      resultsContainer.classList.remove('active');
+    if (
+      searchContainer &&
+      resultsContainer &&
+      !searchContainer.contains(event.target)
+    ) {
+      resultsContainer.classList.remove("active");
     }
   }
 
@@ -347,67 +360,78 @@
    */
   function init() {
     // Search input handler
-    const searchInput = document.getElementById('wiki-search');
+    const searchInput = document.getElementById("wiki-search");
     if (searchInput) {
-      searchInput.addEventListener('input', debounce(handleSearch, CONFIG.debounceDelay));
-      searchInput.addEventListener('focus', handleSearch);
+      searchInput.addEventListener(
+        "input",
+        debounce(handleSearch, CONFIG.debounceDelay),
+      );
+      searchInput.addEventListener("focus", handleSearch);
     }
 
     // Click outside to close search
-    document.addEventListener('click', handleClickOutside);
+    document.addEventListener("click", handleClickOutside);
 
     // Preview handlers for internal links
-    document.addEventListener('mouseenter', (event) => {
-      const link = event.target.closest('a[href$=".html"]');
-      if (link && !link.closest('.preview-popover')) {
-        showPreview(link, event);
-      }
-    }, true);
+    document.addEventListener(
+      "mouseenter",
+      (event) => {
+        const link = event.target.closest('a[href$=".html"]');
+        if (link && !link.closest(".preview-popover")) {
+          showPreview(link, event);
+        }
+      },
+      true,
+    );
 
-    document.addEventListener('mouseleave', (event) => {
-      const link = event.target.closest('a[href$=".html"]');
-      if (link) {
-        // Small delay before hiding to allow moving to popover
-        setTimeout(() => {
-          if (!document.querySelector('.preview-popover:hover')) {
-            hidePreview();
-          }
-        }, 100);
-      }
-    }, true);
+    document.addEventListener(
+      "mouseleave",
+      (event) => {
+        const link = event.target.closest('a[href$=".html"]');
+        if (link) {
+          // Small delay before hiding to allow moving to popover
+          setTimeout(() => {
+            if (!document.querySelector(".preview-popover:hover")) {
+              hidePreview();
+            }
+          }, 100);
+        }
+      },
+      true,
+    );
 
     // Random article button
-    const randomBtn = document.getElementById('random-article-btn');
+    const randomBtn = document.getElementById("random-article-btn");
     if (randomBtn) {
-      randomBtn.addEventListener('click', (e) => {
+      randomBtn.addEventListener("click", (e) => {
         e.preventDefault();
         navigateRandom();
       });
     }
 
     // Keyboard shortcuts
-    document.addEventListener('keydown', (event) => {
+    document.addEventListener("keydown", (event) => {
       // Escape closes search/preview
-      if (event.key === 'Escape') {
+      if (event.key === "Escape") {
         hidePreview();
-        const results = document.getElementById('search-results');
-        if (results) results.classList.remove('active');
+        const results = document.getElementById("search-results");
+        if (results) results.classList.remove("active");
       }
 
       // Ctrl/Cmd + K focuses search
-      if ((event.ctrlKey || event.metaKey) && event.key === 'k') {
+      if ((event.ctrlKey || event.metaKey) && event.key === "k") {
         event.preventDefault();
-        const searchInput = document.getElementById('wiki-search');
+        const searchInput = document.getElementById("wiki-search");
         if (searchInput) searchInput.focus();
       }
     });
 
-    console.log('Not-Wikipedia initialized');
+    console.log("Not-Wikipedia initialized");
   }
 
   // Initialize when DOM is ready
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
   } else {
     init();
   }
