@@ -1,6 +1,6 @@
 {
-  "total": 128,
-  "generated": "2026-03-20T10:16:10.451Z",
+  "total": 139,
+  "generated": "2026-03-20T11:20:40.739Z",
   "articles": [
     {
       "filename": "akureyri-consciousness-breach.html",
@@ -300,6 +300,85 @@
       "created": "2026-03-20T10:16:10.417Z"
     },
     {
+      "filename": "chromatic-cartography.html",
+      "title": "Chromatic Cartography",
+      "summary": "Chromatic Cartography is a decentralized artistic movement originating in the flooded archipelago of the Seraphina Isles in 2032, characterized by the creation of dynamic, three-dimensional maps us...",
+      "type": "article",
+      "category": "art-movement",
+      "keywords": [
+        "chromatic",
+        "cartography",
+        "categories:",
+        "cascading style sheets",
+        "chronological asymmetry",
+        "ontological insurgency theory",
+        "holographic resonance theory"
+      ],
+      "inlinks": 0,
+      "outlinks": 5,
+      "created": "2026-03-20T10:59:04.915Z"
+    },
+    {
+      "filename": "chromatic-echo-mapping.html",
+      "title": "Chromatic Echo Mapping",
+      "summary": "The core of CEM involves the application of a device known as the ‘Resonance Amplifier,’ a complex machine incorporating micro-holographic projectors and bio-feedback sensors. The user, typically a...",
+      "type": "article",
+      "category": "technique",
+      "keywords": [
+        "chromatic",
+        "echo",
+        "mapping",
+        "categories:",
+        "akureyri consciousness breach",
+        "semantic contagion",
+        "ontological insurgency theory",
+        "place specific dysphoria"
+      ],
+      "inlinks": 0,
+      "outlinks": 4,
+      "created": "2026-03-20T10:45:19.694Z"
+    },
+    {
+      "filename": "chromatic-echoes-of-xylos.html",
+      "title": "Chromatic Echoes of Xylos",
+      "summary": "Chromatic Echoes are localized, transient phenomena characterized by the emission of visible light, specifically within the cyan, magenta, and yellow spectrums, originating from deeply stratified g...",
+      "type": "article",
+      "category": "phenomenon",
+      "keywords": [
+        "chromatic",
+        "echoes",
+        "xylos",
+        "categories:",
+        "liminal consciousness studies",
+        "prophetic memory studies",
+        "aleksandra horvat",
+        "algorithmic memory palimpsest",
+        "holographic resonance theory"
+      ],
+      "inlinks": 0,
+      "outlinks": 5,
+      "created": "2026-03-20T11:19:17.862Z"
+    },
+    {
+      "filename": "chromatic-lithosymphony.html",
+      "title": "Chromatic Lithosymphony",
+      "summary": "Chromatic Lithosymphony is a performative art movement originating in the Neo-Siberian Autonomous Zone of Veridia in 2032, predicated on the belief that geological formations possess inherent harmo...",
+      "type": "article",
+      "category": "art-movement",
+      "keywords": [
+        "chromatic",
+        "lithosymphony",
+        "categories:",
+        "semantic hygiene",
+        "temporal data archaeology",
+        "the wanderer s compulsion",
+        "sydney attention collapse"
+      ],
+      "inlinks": 0,
+      "outlinks": 4,
+      "created": "2026-03-20T11:00:00.496Z"
+    },
+    {
       "filename": "chromatic-resonance-echoes.html",
       "title": "Chromatic Resonance Echoes",
       "summary": "The phenomenon isn’t simply a byproduct of chronometric instability. Data suggests a more active process. Klein’s research, documented in “Chromatic Imprints: A Psychoacoustic Study” (Klein, 2041),...",
@@ -411,6 +490,24 @@
       "inlinks": 20,
       "outlinks": 12,
       "created": "2026-01-29"
+    },
+    {
+      "filename": "chronosculpting.html",
+      "title": "Chronosculpting",
+      "summary": "The Echo-Zone, a cylindrical space measuring 15 meters in diameter and 10 meters in height, is constructed from a specially treated obsidian composite designed to maximize temporal resonance. Preci...",
+      "type": "article",
+      "category": "sport",
+      "keywords": [
+        "chronosculpting",
+        "categories:",
+        "cascading style sheets",
+        "akureyri consciousness breach",
+        "chromatic lithosymphony",
+        "lisbon retrograde event"
+      ],
+      "inlinks": 0,
+      "outlinks": 5,
+      "created": "2026-03-20T11:14:35.059Z"
     },
     {
       "filename": "chronospectral-echoes.html",
@@ -1325,6 +1422,42 @@
       "inlinks": 13,
       "outlinks": 13,
       "created": "2026-01-29"
+    },
+    {
+      "filename": "lumina-crystalline-matrices.html",
+      "title": "Lumina-Crystalline Matrices",
+      "summary": "The primary component of LCM is a complex polysaccharide matrix interwoven with strands of solidified “Sonite,” a previously unknown mineral found exclusively within the Cryophotus ’s mantle. Sonit...",
+      "type": "article",
+      "category": "material",
+      "keywords": [
+        "lumina-crystalline",
+        "matrices",
+        "categories:",
+        "chromatic resonance echoes",
+        "chronological asymmetry",
+        "cognitive magnitude collapse"
+      ],
+      "inlinks": 0,
+      "outlinks": 5,
+      "created": "2026-03-20T11:01:27.800Z"
+    },
+    {
+      "filename": "lumina-silicate.html",
+      "title": "Lumina-Silicate",
+      "summary": "The luminescence of Lumina-Silicate isn't merely a byproduct of the Noctiluca 's bioluminescence; it's actively channeled and amplified by the crystalline structure itself. The silicate network, pr...",
+      "type": "article",
+      "category": "material",
+      "keywords": [
+        "lumina-silicate",
+        "categories:",
+        "mei lin zhou",
+        "place specific dysphoria",
+        "wikipedia",
+        "stellacognitive resonance"
+      ],
+      "inlinks": 0,
+      "outlinks": 5,
+      "created": "2026-03-20T11:18:00.247Z"
     },
     {
       "filename": "manila-meaning-overflow.html",
@@ -3149,6 +3282,85 @@
       "inlinks": 7,
       "outlinks": 13,
       "created": "2026-01-29"
+    },
+    {
+      "filename": "the-cartographer-s-bloom.html",
+      "title": "The Cartographer’s Bloom",
+      "summary": "The Bloom’s core is comprised of a geode-like structure, approximately 2.5 meters in diameter, cultivated from a single seed of Stella Maris lichen. This lichen, originally discovered in the submer...",
+      "type": "article",
+      "category": "object",
+      "keywords": [
+        "cartographer’s",
+        "bloom",
+        "categories:",
+        "chromatic lithosymphony",
+        "mnemonic commons",
+        "aleksandra horvat",
+        "meaning encryption"
+      ],
+      "inlinks": 0,
+      "outlinks": 5,
+      "created": "2026-03-20T11:16:35.839Z"
+    },
+    {
+      "filename": "the-chimera-syndrome.html",
+      "title": "THE CHIMERA SYNDROME",
+      "summary": "The Chimera Syndrome is a rare neurological condition characterized by the involuntary generation and experience of complex, multi-sensory ‘echoes’ – primarily auditory and visual – which are funda...",
+      "type": "article",
+      "category": "condition",
+      "keywords": [
+        "chimera",
+        "syndrome",
+        "categories:",
+        "collective memory maintenance",
+        "digital artifact",
+        "stratum vii ethics debate",
+        "akureyri consciousness breach"
+      ],
+      "inlinks": 0,
+      "outlinks": 5,
+      "created": "2026-03-20T11:15:48.082Z"
+    },
+    {
+      "filename": "the-chronal-gastric-synthesis-of-xylosian-bloom.html",
+      "title": "The Chronal Gastric Synthesis of Xylosian Bloom",
+      "summary": "The process, perfected over a decade by Master Theron Corvus at his atelier in Neo-Alexandria, involves a delicate balance of sonic resonance, controlled cryogenic exposure, and a proprietary blend...",
+      "type": "article",
+      "category": "recipe",
+      "keywords": [
+        "chronal",
+        "gastric",
+        "synthesis",
+        "xylosian",
+        "bloom",
+        "categories:",
+        "cascading style sheets",
+        "isabella reyes",
+        "chromatic echoes of xylos",
+        "cognitive magnitude collapse"
+      ],
+      "inlinks": 0,
+      "outlinks": 5,
+      "created": "2026-03-20T11:20:39.340Z"
+    },
+    {
+      "filename": "the-chronosculpting-loom.html",
+      "title": "The Chronosculpting Loom",
+      "summary": "The Chronosculpting Loom is a complex, steam-powered device designed to manipulate the temporal density of woven fabrics, effectively creating garments that exhibit subtle shifts in their perceived...",
+      "type": "article",
+      "category": "machine",
+      "keywords": [
+        "chronosculpting",
+        "loom",
+        "categories:",
+        "semantic gravity wells",
+        "primordial lexeme hypothesis",
+        "consciousness archaeology",
+        "html"
+      ],
+      "inlinks": 0,
+      "outlinks": 5,
+      "created": "2026-03-20T10:57:48.362Z"
     },
     {
       "filename": "the-wanderer-s-compulsion.html",
