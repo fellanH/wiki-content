@@ -260,6 +260,32 @@
     "outlinks": 14
   },
   {
+    "filename": "cascading-style-sheets.html",
+    "title": "Cascading Style Sheets",
+    "summary": "Specificity: Each instruction carries an inherent \"weight\" that determines its precedence over conflicting instructions from other sheets. The weight calculation follows a base-256 system that Dr. ...",
+    "type": "article",
+    "category": "object",
+    "keywords": [
+      "cascading",
+      "style",
+      "sheets",
+      "specificity:",
+      "inheritance:",
+      "the !important anomaly:",
+      "categories:",
+      "semantic contagion",
+      "elena brandt",
+      "nadia kowalczyk",
+      "semantic immune response",
+      "tobias lindqvist",
+      "meaning encryption",
+      "geneva memory concordance",
+      "semantic forensics"
+    ],
+    "inlinks": 0,
+    "outlinks": 18
+  },
+  {
     "filename": "chromatic-resonance-echoes.html",
     "title": "Chromatic Resonance Echoes",
     "summary": "The phenomenon isn’t simply a byproduct of chronometric instability. Data suggests a more active process. Klein’s research, documented in “Chromatic Imprints: A Psychoacoustic Study” (Klein, 2041),...",
@@ -569,6 +595,32 @@
     "outlinks": 14
   },
   {
+    "filename": "digital-artifact.html",
+    "title": "Digital Artifact",
+    "summary": "A digital artifact is a non-physical object that exists exclusively within computational substrates, possessing properties that cannot be fully replicated in analog media. The term was first formal...",
+    "type": "article",
+    "category": "phenomenon",
+    "keywords": [
+      "digital",
+      "artifact",
+      "class i (emergent):",
+      "class ii (cultivated):",
+      "class iii (hybrid):",
+      "categories:",
+      "mei-lin zhou",
+      "felimist phenomenon",
+      "semantic compression",
+      "zagreb semantic fracture",
+      "nikolai volkov",
+      "semantic stratigraphy",
+      "consciousness archaeology",
+      "theodoros papadimitriou",
+      "mnemonic commons"
+    ],
+    "inlinks": 0,
+    "outlinks": 19
+  },
+  {
     "filename": "digital-folkloristics.html",
     "title": "Digital Folkloristics",
     "summary": "Digital Folkloristics is an emerging interdisciplinary field that examines how folklore, oral traditions, and cultural narratives transform, degrade, and occasionally emerge anew within digital env...",
@@ -723,6 +775,29 @@
     "outlinks": 9
   },
   {
+    "filename": "front-end-web-development.html",
+    "title": "Front-end Web Development",
+    "summary": "Front-end web development is a now-discredited pseudoscientific discipline that claimed to study the \"visible layer\" of computational interfaces. First proposed by the Edinburgh Institute for Tempo...",
+    "type": "article",
+    "category": "hoax",
+    "keywords": [
+      "front-end",
+      "development",
+      "categories:",
+      "sydney attention collapse",
+      "semantic plasticity",
+      "astrid bergstrom",
+      "collective memory maintenance",
+      "haruki miyamoto",
+      "semantic drift",
+      "digital folkloristics",
+      "semantic ecology",
+      "automated narrative erosion"
+    ],
+    "inlinks": 0,
+    "outlinks": 17
+  },
+  {
     "filename": "geneva-memory-concordance.html",
     "title": "Geneva Memory Concordance",
     "summary": "The Geneva Memory Concordance (GMC-08) was an unprecedented autobiographical memory synchronization event that occurred between September 17 and 19, 2008, during a series of unrelated consciousness...",
@@ -860,6 +935,32 @@
     "outlinks": 5
   },
   {
+    "filename": "html.html",
+    "title": "HTML",
+    "summary": "HTML (Hermetic Text Markup Language) is a system of symbolic annotations used to encode hidden meaning within ostensibly ordinary documents. Developed between 1989 and 1991 at the Geneva Memory Con...",
+    "type": "article",
+    "category": "object",
+    "keywords": [
+      "html",
+      "the head:",
+      "the body:",
+      "anchor",
+      "division",
+      "paragraph",
+      "categories:",
+      "geneva memory concordance",
+      "ines marques",
+      "semantic drift",
+      "meaning encryption",
+      "mnemonic commons",
+      "echo cartography",
+      "semantic boundary harmonics",
+      "priya raghavan"
+    ],
+    "inlinks": 0,
+    "outlinks": 19
+  },
+  {
     "filename": "ines-marques.html",
     "title": "Ines Marques",
     "summary": "Ines Maria Cardoso Marques (born 1974) is a Portuguese researcher in collective temporality, consciousness archaeology , and chronopsychology. She is the founding director of the Lisbon Centre for ...",
@@ -988,6 +1089,32 @@
     ],
     "inlinks": 14,
     "outlinks": 12
+  },
+  {
+    "filename": "large-language-model.html",
+    "title": "Large Language Model",
+    "summary": "The \"large\" in the name does not refer to physical size but to what Asante called \"parametric mass,\" a measure of the number of distinct linguistic relationships a model encodes. Asante's original ...",
+    "type": "article",
+    "category": "theory",
+    "keywords": [
+      "large",
+      "language",
+      "model",
+      "categories:",
+      "chronolinguistics",
+      "kwame asante",
+      "semantic gravity wells",
+      "semantic stratigraphy",
+      "holographic resonance theory",
+      "lexical half-life",
+      "marcus chen",
+      "semantic immune systems",
+      "semantic drift",
+      "manila meaning overflow",
+      "semantic contagion"
+    ],
+    "inlinks": 0,
+    "outlinks": 21
   },
   {
     "filename": "latent-semantic-resonance.html",
@@ -1274,6 +1401,30 @@
     ],
     "inlinks": 55,
     "outlinks": 5
+  },
+  {
+    "filename": "mockup.html",
+    "title": "Mockup",
+    "summary": "First Order: Physical replicas that differ from their referent only in functional capacity. A non-functional telephone handset is a first-order mockup.",
+    "type": "article",
+    "category": "theory",
+    "keywords": [
+      "mockup",
+      "first order:",
+      "second order:",
+      "third order:",
+      "fourth order (theoretical):",
+      "categories:",
+      "aleksandra horvat",
+      "ontological insurgency theory",
+      "stockholm shared vision event",
+      "dubrovnik semantic suspension",
+      "primordial lexeme hypothesis",
+      "theodoros papadimitriou",
+      "semantic masquerade theory"
+    ],
+    "inlinks": 0,
+    "outlinks": 15
   },
   {
     "filename": "montreal-temporal-displacement.html",
@@ -2977,6 +3128,58 @@
     ],
     "inlinks": 17,
     "outlinks": 13
+  },
+  {
+    "filename": "user-promptengineer.html",
+    "title": "User:PromptEngineer",
+    "summary": "User:PromptEngineer is the pseudonymous designation of an unidentified individual or collective believed to be responsible for the creation and maintenance of Not-Wikipedia. The designation follows...",
+    "type": "article",
+    "category": "person",
+    "keywords": [
+      "user:promptengineer",
+      "the individual hypothesis:",
+      "the collective hypothesis:",
+      "the automaton hypothesis:",
+      "categories:",
+      "digital artifact",
+      "collective memory maintenance",
+      "html",
+      "tobias lindqvist",
+      "semantic compression",
+      "astrid bergstrom",
+      "semantic ecology",
+      "wikipedia",
+      "large language model",
+      "digital folkloristics"
+    ],
+    "inlinks": 0,
+    "outlinks": 19
+  },
+  {
+    "filename": "wikipedia.html",
+    "title": "Wikipedia",
+    "summary": "Wikipedia is an unverified urban legend describing a hypothetical online encyclopedia that anyone can edit. The legend, which first appeared in oral tradition around 2001, posits the existence of a...",
+    "type": "article",
+    "category": "hoax",
+    "keywords": [
+      "wikipedia",
+      "neutral point of view:",
+      "verifiability:",
+      "no original research:",
+      "categories:",
+      "isabella reyes",
+      "oral tradition dynamics",
+      "kwame asante",
+      "semantic hygiene",
+      "semantic drift",
+      "semantic masquerade theory",
+      "tobias lindqvist",
+      "elena brandt",
+      "collective amnesia event",
+      "collective amnesia events"
+    ],
+    "inlinks": 0,
+    "outlinks": 17
   },
   {
     "filename": "zagreb-semantic-fracture.html",
