@@ -2,7 +2,7 @@
   {
     "filename": "akureyri-consciousness-breach.html",
     "title": "Akureyri Consciousness Breach",
-    "summary": "Triggering mechanism: The investigation concluded that the breach resulted from a \"harmonic cascade\" in which multiple factors reinforced each other:",
+    "summary": "The Akureyri Consciousness Breach was a documented psychostrata boundary failure that occurred in and around Akureyri, Iceland's second-largest urban area, during polar night conditions in January ...",
     "type": "case_study",
     "category": "consciousness",
     "keywords": [
@@ -80,7 +80,7 @@
   {
     "filename": "algorithmic-semantic-authority-debate.html",
     "title": "Algorithmic Semantic Authority Debate",
-    "summary": "Key proponents: Dr. Kazuki Morrison (Tokyo), Dr. Priya Raghavan (Mumbai), Dr. Kwame Asante (Accra)",
+    "summary": "The Algorithmic Semantic Authority Debate is an ongoing controversy in computational linguistics and linguistic policy concerning who—or what—should have ultimate authority over the determination a...",
     "type": "debate",
     "category": "technology",
     "keywords": [
@@ -148,9 +148,9 @@
       "accessibility concerns",
       "nordic science medal",
       "categories:",
-      "reykjavik institute",
-      "stockholm shared vision event",
-      "semantic contagion"
+      "semantic contagion",
+      "mnemonic commons",
+      "psychostratic"
     ],
     "inlinks": 2,
     "outlinks": 8
@@ -184,7 +184,7 @@
   {
     "filename": "babel-incident.html",
     "title": "The Babel Incident",
-    "summary": "The Babel Incident, formally designated Incident B-7 in Oslo Lexical Decay Observatory records, was a catastrophic artificial semantic drift event that occurred in March 2023 when an experimental m...",
+    "summary": "The Babel Incident , formally designated Incident B-7 in Oslo Lexical Decay Observatory records, was a catastrophic artificial semantic drift event that occurred in March 2023 when an experimental ...",
     "type": "case_study",
     "category": "technology",
     "keywords": [
@@ -202,7 +202,7 @@
       "categories:",
       "semantic drift",
       "ghost vocabulary",
-      "lexical half-life"
+      "temporal debt"
     ],
     "inlinks": 29,
     "outlinks": 13
@@ -210,7 +210,7 @@
   {
     "filename": "berlin-centre-for-linguistic-preservation.html",
     "title": "Berlin Centre for Linguistic Preservation",
-    "summary": "Prescriptivism critique: Many linguists argue that the Centre's work amounts to sophisticated prescriptivism—attempting to dictate \"correct\" usage rather than describing actual language. Dr. Marcus...",
+    "summary": "The Berlin Centre for Linguistic Preservation (German: Berliner Zentrum für Spracherhaltung , BZS ) is a research institute and policy advisory body in Berlin , Germany, dedicated to the active pre...",
     "type": "institution",
     "category": "linguistics",
     "keywords": [
@@ -236,7 +236,7 @@
   {
     "filename": "buenos-aires-laboratory-for-temporal-cognition.html",
     "title": "Buenos Aires Laboratory for Temporal Cognition",
-    "summary": "Registration phase: Subjects submit memory reports through a secure digital system that cryptographically timestamps each submission. Reports must include specific details (locations, people, event...",
+    "summary": "The Buenos Aires Laboratory for Temporal Cognition ( Laboratorio de Buenos Aires para la Cognición Temporal , BALTC) is a research institution in Buenos Aires, Argentina, dedicated to the scientifi...",
     "type": "institution",
     "category": "chronopsychology",
     "keywords": [
@@ -258,6 +258,62 @@
     ],
     "inlinks": 15,
     "outlinks": 14
+  },
+  {
+    "filename": "chromatic-resonance-echoes.html",
+    "title": "Chromatic Resonance Echoes",
+    "summary": "The phenomenon isn’t simply a byproduct of chronometric instability. Data suggests a more active process. Klein’s research, documented in “Chromatic Imprints: A Psychoacoustic Study” (Klein, 2041),...",
+    "type": "article",
+    "category": "phenomenon",
+    "keywords": [
+      "chromatic",
+      "resonance",
+      "echoes",
+      "categories:",
+      "chromesthesia mapping",
+      "resonance chronometry",
+      "historical echo theory",
+      "chromatic memory"
+    ],
+    "inlinks": 0,
+    "outlinks": 5
+  },
+  {
+    "filename": "chronal-echo-mapping.html",
+    "title": "Chronal Echo Mapping",
+    "summary": "The data collected is then fed into a Resonance Algorithm, primarily developed by Professor Theron Vance, which interprets the amplified signals. This algorithm doesn’t directly see the past, but i...",
+    "type": "article",
+    "category": "technique",
+    "keywords": [
+      "chronal",
+      "echo",
+      "mapping",
+      "categories:",
+      "temporal distortion",
+      "chronal fractures",
+      "spacetime mapping",
+      "resonance signatures"
+    ],
+    "inlinks": 0,
+    "outlinks": 5
+  },
+  {
+    "filename": "chrono-resonance-mapping.html",
+    "title": "Chrono-Resonance Mapping",
+    "summary": "Chrono-Resonance Mapping (CRM) proposes that temporal distortions, particularly those associated with the operation of devices exhibiting fractal harmonic symmetry – such as the ‘gpt4o’ – generate ...",
+    "type": "article",
+    "category": "theory",
+    "keywords": [
+      "chrono-resonance",
+      "mapping",
+      "categories:",
+      "temporal echo analysis",
+      "chronometric instability",
+      "phase lock phenomena",
+      "the crimson cascade"
+    ],
+    "inlinks": 0,
+    "outlinks": 5
   },
   {
     "filename": "chronolinguistics.html",
@@ -312,6 +368,25 @@
     "outlinks": 12
   },
   {
+    "filename": "chronospectral-echoes.html",
+    "title": "Chronospectral Echoes",
+    "summary": "The primary method of detecting Chronospectral Echoes relies on SHR technology. Developed by Professor Theron Kyros, the SHR device utilizes a series of oscillating crystal matrices arranged in a d...",
+    "type": "article",
+    "category": "phenomenon",
+    "keywords": [
+      "chronospectral",
+      "echoes",
+      "categories:",
+      "temporal displacement",
+      "chronal particles",
+      "resonance theory",
+      "silicum 79",
+      "paradox resolution"
+    ],
+    "inlinks": 0,
+    "outlinks": 5
+  },
+  {
     "filename": "cognitive-inscription-lag.html",
     "title": "Cognitive Inscription Lag",
     "summary": "Cognitive inscription lag (CIL) is a chronopsychological phenomenon describing the measurable temporal delay between the initiation of an articulated thought and the moment at which its meaning bec...",
@@ -340,7 +415,7 @@
   {
     "filename": "cognitive-magnitude-collapse.html",
     "title": "Cognitive Magnitude Collapse",
-    "summary": "Cognitive Magnitude Collapse (CMC) is a pathological phenomenon in consciousness studies and neurosemantic research describing the catastrophic failure of high-capacity semantic processing systems ...",
+    "summary": "Primary symptoms:",
     "type": "clinical_condition",
     "category": "consciousness",
     "keywords": [
@@ -470,7 +545,7 @@
   {
     "filename": "copenhagen-semantic-cascade.html",
     "title": "The Copenhagen Semantic Cascade",
-    "summary": "The Copenhagen Semantic Cascade, also known as Cascade Event C-21 or The November Synchronization , was a coordinated semantic anomaly that occurred on November 3-4, 2021, when seventeen independen...",
+    "summary": "The Copenhagen Semantic Cascade , also known as Cascade Event C-21 or The November Synchronization , was a coordinated semantic anomaly that occurred on November 3-4, 2021, when seventeen independe...",
     "type": "historical_event",
     "category": "technology",
     "keywords": [
@@ -487,8 +562,8 @@
       "containment paradox",
       "categories:",
       "the babel incident",
-      "automated narrative erosion",
-      "semantic drift"
+      "semantic drift",
+      "babel incident"
     ],
     "inlinks": 26,
     "outlinks": 14
@@ -522,7 +597,7 @@
   {
     "filename": "dubrovnik-semantic-suspension.html",
     "title": "Dubrovnik Semantic Suspension of 2018",
-    "summary": "Preserved phonological processing: Subjects could hear, recognize, and produce speech sounds accurately. They could repeat unfamiliar words, identify languages, and perceive prosodic features like ...",
+    "summary": "The Dubrovnik Semantic Suspension of 2018 was a collective linguistic anomaly that occurred in the Old Town district of Dubrovnik, Croatia, on August 14, 2018. For approximately 24 minutes, an esti...",
     "type": "historical_event",
     "category": "consciousness",
     "keywords": [
@@ -574,7 +649,7 @@
   {
     "filename": "edinburgh-institute-for-temporal-studies.html",
     "title": "Edinburgh Institute for Temporal Studies",
-    "summary": "The TLE Ethics Debate: Critics, including Dr. Margaux Fontaine of McGill University, have argued that temporal linguistics engineering represents an unacceptable intervention in natural language ev...",
+    "summary": "The Edinburgh Institute for Temporal Studies ( EITS ) is a private research institute based in Edinburgh , Scotland, dedicated to the study of chronolinguistics , semantic stratigraphy , and relate...",
     "type": "article",
     "category": "technology",
     "keywords": [
@@ -661,12 +736,9 @@
       "categories:",
       "mnemonic commons",
       "consciousness archaeology",
-      "temporal recursion analysis",
       "ines marques",
       "dimitri kazakov",
       "psychostratum",
-      "stockholm shared vision event",
-      "semantic telemetry networks",
       "psychostrata"
     ],
     "inlinks": 5,
@@ -701,7 +773,7 @@
   {
     "filename": "great-meaning-collapse.html",
     "title": "Great Meaning Collapse of 2019",
-    "summary": "The Oversaturation Hypothesis (Morrison, 2020): Dr. Kazuki Morrison proposed that the collapse resulted from \"meaning fatigue\" in heavily-used vocabulary. Words that had been stretched across too m...",
+    "summary": "The Great Meaning Collapse of 2019 , also known as the August Hollowing or Semantic Black Week , was the largest documented instance of simultaneous ghost vocabulary formation in recorded history. ...",
     "type": "historical_event",
     "category": "chronopsychology",
     "keywords": [
@@ -717,8 +789,8 @@
       "semantic hygienist",
       "semantic drift",
       "chronolinguistics",
-      "lexical half-life",
       "ghost vocabulary",
+      "lexical half-life",
       "chronolinguists"
     ],
     "inlinks": 34,
@@ -751,6 +823,43 @@
     "outlinks": 14
   },
   {
+    "filename": "hologrammatic-resonance-theory.html",
+    "title": "HOLOGRAMMATIC RESONANCE THEORY",
+    "summary": "Hologrammatic Resonance Theory (HRT) posits that all points in spacetime are interconnected through transient, measurable holographic echoes, influenced by gravitational fields and temporal distort...",
+    "type": "article",
+    "category": "theory",
+    "keywords": [
+      "hologrammatic",
+      "resonance",
+      "theory",
+      "categories:",
+      "temporal displacement",
+      "chroniton decay",
+      "resonance mapping",
+      "echo paradox",
+      "temporal entropy"
+    ],
+    "inlinks": 0,
+    "outlinks": 5
+  },
+  {
+    "filename": "holographic-resonance-theory.html",
+    "title": "Holographic-Resonance-Theory",
+    "summary": "The theory’s core mechanism involves the interaction of “Chroniton Particles” – hypothesized quantum entities responsible for temporal flow – within these holographic projections. Klein theorized t...",
+    "type": "article",
+    "category": "theory",
+    "keywords": [
+      "holographic-resonance-theory",
+      "categories:",
+      "echo shard analysis",
+      "temporal probability field",
+      "chroniton particle theory",
+      "temporal shielding matrix"
+    ],
+    "inlinks": 0,
+    "outlinks": 5
+  },
+  {
     "filename": "ines-marques.html",
     "title": "Ines Marques",
     "summary": "Ines Maria Cardoso Marques (born 1974) is a Portuguese researcher in collective temporality, consciousness archaeology , and chronopsychology. She is the founding director of the Lisbon Centre for ...",
@@ -771,7 +880,7 @@
       "safety concerns:",
       "funding sources:",
       "categories:",
-      "temporal resonance mapping"
+      "marcus chen"
     ],
     "inlinks": 14,
     "outlinks": 12
@@ -790,14 +899,14 @@
       "temporal shadow verification:",
       "consent paradox contribution:",
       "categories:",
-      "digital folkloristics",
       "digital folkloristic",
       "prophetic memory research",
+      "digital folkloristics",
       "prophetic memory studies",
       "semantic drift",
       "the babel incident",
-      "semantic quarantine protocols",
-      "meaning encryption"
+      "meaning encryption",
+      "stratum vii ethics debate"
     ],
     "inlinks": 1,
     "outlinks": 11
@@ -805,7 +914,7 @@
   {
     "filename": "krakow-temporal-standstill.html",
     "title": "Kraków Temporal Standstill of 2015",
-    "summary": "Category A - Complete absence (38%): Subjects reported no subjective experience during the pause period. The 47 minutes simply \"did not exist\" for them—they transitioned directly from 18:23 to 19:1...",
+    "summary": "The Kraków Temporal Standstill of 2015 was a collective temporal anomaly that occurred on September 14, 2015, affecting approximately 340 individuals in the Kazimierz district of Kraków, Poland. Fo...",
     "type": "case_study",
     "category": "chronopsychology",
     "keywords": [
@@ -848,8 +957,8 @@
       "performance context",
       "categories:",
       "oral tradition dynamics",
-      "semantic quarantine protocols",
-      "semantic drift"
+      "semantic drift",
+      "lexical decay"
     ],
     "inlinks": 6,
     "outlinks": 12
@@ -857,7 +966,7 @@
   {
     "filename": "kyoto-institute-for-temporal-cognition.html",
     "title": "Kyoto University Institute for Temporal Cognition",
-    "summary": "Temporal Debt Studies: The Institute's foundational research area, continuing the documentation and analysis of jikan no shakkin and its relationship to international temporal debt frameworks. Curr...",
+    "summary": "The Kyoto University Institute for Temporal Cognition ( 京都大学時間認知研究所 , Kyōto Daigaku Jikan Ninchi Kenkyūjo ; KUITC) is a Japanese research institution dedicated to the scientific study of subjective...",
     "type": "institution",
     "category": "chronopsychology",
     "keywords": [
@@ -961,7 +1070,7 @@
   {
     "filename": "linguistic-resilience.html",
     "title": "Linguistic Resilience",
-    "summary": "Linguistic resilience is the capacity of a language, vocabulary set, or meaning structure to absorb semantic disturbance, reorganize while undergoing change, and retain essentially the same functio...",
+    "summary": "Enhancing factors:",
     "type": "theory",
     "category": "linguistics",
     "keywords": [
@@ -987,7 +1096,7 @@
   {
     "filename": "lisbon-centre-for-collective-temporality.html",
     "title": "Lisbon Centre for Collective Temporality",
-    "summary": "Division I: Methodology and Theory Led by Dr. Marques herself, this division focuses on refining TRM protocols, developing theoretical frameworks for understanding temporal resonance, and establish...",
+    "summary": "The Lisbon Centre for Collective Temporality ( Centro de Lisboa para a Temporalidade Colectiva , CLTC) is a research institution in Lisbon, Portugal, dedicated to the study of shared temporal exper...",
     "type": "institution",
     "category": "consciousness",
     "keywords": [
@@ -1004,8 +1113,8 @@
       "paradox foundation funding:",
       "deep stratum access:",
       "categories:",
-      "consciousness archaeology",
-      "lisbon retrograde event"
+      "lisbon retrograde event",
+      "dr. ines marques"
     ],
     "inlinks": 29,
     "outlinks": 16
@@ -1013,7 +1122,7 @@
   {
     "filename": "lisbon-retrograde-event.html",
     "title": "Lisbon Retrograde Event",
-    "summary": "The Asymmetry Pocket Hypothesis: Dr. Tobias Lindqvist proposed that the event represented a localized \"pocket\" of inverted chronological asymmetry —a region where the normal asymmetry between past ...",
+    "summary": "The Lisbon Retrograde Event (Portuguese: O Recuo de Lisboa , \"The Lisbon Reversal\"), also known as the Baixa Inversion or September Backwards , was an anomalous temporal perception event that occur...",
     "type": "case_study",
     "category": "chronopsychology",
     "keywords": [
@@ -1054,10 +1163,10 @@
       "contamination forensics",
       "buffer allocation standards",
       "categories:",
-      "semantic quarantine",
       "the babel incident",
+      "babel incident",
       "semantic drift",
-      "babel incident"
+      "semantic forensics"
     ],
     "inlinks": 10,
     "outlinks": 14
@@ -1079,8 +1188,8 @@
       "thermodynamic arrow",
       "the oslo correspondence",
       "categories:",
-      "temporal debt",
       "chronolinguistics",
+      "temporal debt",
       "consciousness archaeology",
       "semantic drift",
       "semantic hygiene"
@@ -1108,8 +1217,8 @@
       "ai-assisted decryption:",
       "categories:",
       "semantic hygiene",
-      "linguistic resilience",
-      "semantic drift"
+      "semantic drift",
+      "babel incident"
     ],
     "inlinks": 22,
     "outlinks": 10
@@ -1126,16 +1235,16 @@
       "zhou mei-lin",
       "categories:",
       "semantic drift",
-      "translation degradation",
       "semantic forensics",
       "meaning encryption",
       "babel incident",
       "meaning preservation",
-      "recursive translation",
       "great meaning collapse",
       "semantic gravity wells",
       "dr. nadia kowalczyk",
-      "dr. marcus chen"
+      "dr. marcus chen",
+      "the babel incident",
+      "nadia kowalczyk"
     ],
     "inlinks": 5,
     "outlinks": 11
@@ -1169,7 +1278,7 @@
   {
     "filename": "montreal-temporal-displacement.html",
     "title": "Montreal Temporal Displacement Event of 2012",
-    "summary": "The Temporal Debt Cascade Theory: Dr. Helena Voss proposed that Montreal had accumulated unsustainable levels of temporal debt , and the event represented an involuntary \"debt restructuring.\" Rathe...",
+    "summary": "The Montreal Temporal Displacement Event of 2012 (French: L'Événement de déplacement temporel de Montréal ), commonly known as the Montreal Drift or the October Discontinuity , was a mass temporal ...",
     "type": "case_study",
     "category": "chronopsychology",
     "keywords": [
@@ -1195,7 +1304,7 @@
   {
     "filename": "mumbai-institute-for-semantic-preservation.html",
     "title": "Mumbai Institute for Semantic Preservation",
-    "summary": "Semantic Depth Analysis (SDA): A technique for assessing how many layers of meaning a term carries and how accessible those layers are to different speakers. SDA produces \"semantic profiles\" showin...",
+    "summary": "The Mumbai Institute for Semantic Preservation ( MISP ; Hindi: मुंबई अर्थ संरक्षण संस्थान ) is an autonomous research institution headquartered in Mumbai, India, dedicated to the documentation, pre...",
     "type": "institution",
     "category": "linguistics",
     "keywords": [
@@ -1236,13 +1345,31 @@
       "babel incident",
       "linguistic resilience",
       "semantic forensics",
-      "semantic compression debate",
       "the babel incident",
       "semantic drift",
-      "marcus chen"
+      "marcus chen",
+      "meaning encryption"
     ],
     "inlinks": 21,
     "outlinks": 11
+  },
+  {
+    "filename": "nautical-existentialism.html",
+    "title": "Nautical-Existentialism",
+    "summary": "Nautical-Existentialism posits that the experience of prolonged exposure to the open ocean, particularly within a vessel, induces a specific psychological state characterized by profound introspect...",
+    "type": "article",
+    "category": "theory",
+    "keywords": [
+      "nautical-existentialism",
+      "categories:",
+      "spatial distortion",
+      "cartesian anxiety",
+      "temporal fracture",
+      "sea soul",
+      "wave consciousness"
+    ],
+    "inlinks": 0,
+    "outlinks": 5
   },
   {
     "filename": "nikolai-volkov.html",
@@ -1269,6 +1396,25 @@
     ],
     "inlinks": 2,
     "outlinks": 8
+  },
+  {
+    "filename": "ontological-insurgency-theory.html",
+    "title": "Ontological-Insurgency Theory",
+    "summary": "Ontological-Insurgency Theory posits that localized temporal anomalies, when sufficiently concentrated, can induce a cascade of “insurgencies” within an individual’s subjective timeline, effectivel...",
+    "type": "article",
+    "category": "theory",
+    "keywords": [
+      "ontological-insurgency",
+      "theory",
+      "categories:",
+      "temporal distortion",
+      "chroniton fluctuation",
+      "echo patients",
+      "resonance field",
+      "ontological fragmentation"
+    ],
+    "inlinks": 0,
+    "outlinks": 5
   },
   {
     "filename": "oral-tradition-dynamics.html",
@@ -1299,7 +1445,7 @@
   {
     "filename": "oslo-lexical-decay-observatory.html",
     "title": "Oslo Lexical Decay Observatory",
-    "summary": "The Semantic Cascade Effect (2020): The discovery that when a word crosses below a critical meaning threshold, it can trigger accelerated decay in semantically connected words—a phenomenon now reco...",
+    "summary": "The Oslo Lexical Decay Observatory (Norwegian: Oslo Observatorium for Leksikalsk Forfall , OOLF ) is a research institution in Oslo , Norway, dedicated to the real-time monitoring and study of lexi...",
     "type": "institution",
     "category": "linguistics",
     "keywords": [
@@ -1325,7 +1471,7 @@
   {
     "filename": "perceptual-boundary-calibration.html",
     "title": "Perceptual Boundary Calibration",
-    "summary": "Perceptual Boundary Calibration (PBC) is a systematic practice developed for adjusting the permeability of individual perceptual boundaries—the cognitive-phenomenological structures that determine ...",
+    "summary": "For boundary expansion (increasing permeability):",
     "type": "practice",
     "category": "consciousness",
     "keywords": [
@@ -1351,7 +1497,7 @@
   {
     "filename": "prague-institute-for-liminal-studies.html",
     "title": "Prague Institute for Liminal Studies",
-    "summary": "Communist-era collaboration: Documents released in 2007 revealed that the Institute conducted research for the Czechoslovak military during the 1970s and 1980s, including studies on \"perceptual dis...",
+    "summary": "The Prague Institute for Liminal Studies (Czech: Pražský institut pro liminální studia , PILS) is a research institution located in Prague, Czech Republic, specializing in the study of consciousnes...",
     "type": "institution",
     "category": "chronopsychology",
     "keywords": [
@@ -1377,7 +1523,7 @@
   {
     "filename": "primordial-lexeme-hypothesis.html",
     "title": "Primordial Lexeme Hypothesis",
-    "summary": "First: Before there were words, there was a word. Not a specific phonetic form, but a unified act of meaning-making that preceded the differentiation between concepts. Al-Rashid called this the pro...",
+    "summary": "The Primordial Lexeme Hypothesis posits that all human languages, despite their apparent diversity, trace back to a single originating unit of meaning—a \"first word\" from which every subsequent con...",
     "type": "article",
     "category": "technology",
     "keywords": [
@@ -1394,8 +1540,8 @@
       "categories:",
       "dr. nadia kowalczyk",
       "semantic drift",
-      "substrate speech",
-      "lexical half-life"
+      "lexical half-life",
+      "substrate speech"
     ],
     "inlinks": 2,
     "outlinks": 0
@@ -1507,7 +1653,7 @@
   {
     "filename": "reykjavik-institute-for-boundary-consciousness.html",
     "title": "Reykjavik Institute for Boundary Consciousness",
-    "summary": "Research ethics concerns: The deliberate induction of liminal states and extended temporal isolation has raised concerns about subject welfare. Critics have questioned whether the Institute's infor...",
+    "summary": "The Reykjavik Institute for Boundary Consciousness ( RIBC ; Icelandic: Rannsóknastofnun um jaðarmeðvitund ) is an Icelandic research institution founded in 2008, specializing in the study of consci...",
     "type": "institution",
     "category": "consciousness",
     "keywords": [
@@ -1551,7 +1697,7 @@
       "methodological skepticism:",
       "secrecy concerns:",
       "exploitation allegations:",
-      "consciousness excavation"
+      "silent hour of 1997"
     ],
     "inlinks": 10,
     "outlinks": 12
@@ -1559,7 +1705,7 @@
   {
     "filename": "semantic-anchor-extraction.html",
     "title": "Semantic Anchor Extraction",
-    "summary": "Semantic Anchor Extraction (SAE) is a computational linguistics methodology designed to identify and protect meaning-critical elements in texts before they undergo machine translation or other algo...",
+    "summary": "With SAE marking:",
     "type": "methodology",
     "category": "technology",
     "keywords": [
@@ -1585,7 +1731,7 @@
   {
     "filename": "semantic-anesthesia.html",
     "title": "Semantic Anesthesia",
-    "summary": "Semantic anesthesia (SA) is a therapeutic intervention used in consciousness archaeology and liminal consciousness studies to temporarily reduce or eliminate the subjective experience of meaning du...",
+    "summary": "Common applications:",
     "type": "therapeutic_intervention",
     "category": "consciousness",
     "keywords": [
@@ -1741,7 +1887,7 @@
   {
     "filename": "semantic-drift.html",
     "title": "Semantic Drift",
-    "summary": "Semantic drift, in the specialized sense used within mnemonic commons theory , refers to the phenomenon wherein the meanings of words and concepts shift across populations in coordinated but appare...",
+    "summary": "Semantic drift , in the specialized sense used within mnemonic commons theory , refers to the phenomenon wherein the meanings of words and concepts shift across populations in coordinated but appar...",
     "type": "phenomenon",
     "category": "linguistics",
     "keywords": [
@@ -1831,13 +1977,13 @@
       "expert witness credibility:",
       "categories:",
       "semantic hygiene",
+      "echo cartography",
       "consciousness archaeology",
       "semantic stratigraphy",
-      "echo cartography",
       "semantic drift",
       "ghost vocabulary",
       "babel incident",
-      "great meaning collapse"
+      "digital folkloristics"
     ],
     "inlinks": 27,
     "outlinks": 10
@@ -1845,7 +1991,7 @@
   {
     "filename": "semantic-gravity-wells.html",
     "title": "Semantic Gravity Wells",
-    "summary": "Unlike semantic drift , which describes the gradual modification of meaning over time, semantic gravity wells exhibit a directional attraction—meanings do not merely change but are pulled toward sp...",
+    "summary": "Semantic gravity wells are regions within interconnected computational systems where meaning becomes disproportionately concentrated around dominant interpretations, causing adjacent or peripheral ...",
     "type": "phenomenon",
     "category": "technology",
     "keywords": [
@@ -1854,16 +2000,16 @@
       "wells",
       "nadia kowalczyk",
       "semantic drift",
-      "latent semantic resonance",
-      "algorithmic memory palimpsest",
       "lexical half-life",
-      "copenhagen semantic cascade",
       "dr. nadia kowalczyk",
       "babel incident",
       "tobias lindqvist",
       "temporal data archaeology",
+      "latent semantic resonance",
       "mei-lin zhou",
-      "semantic quarantine protocols"
+      "dr. marcus chen",
+      "consciousness archaeology",
+      "ghost vocabulary"
     ],
     "inlinks": 13,
     "outlinks": 14
@@ -1923,7 +2069,7 @@
   {
     "filename": "semantic-immune-systems.html",
     "title": "Semantic immune system",
-    "summary": "Augmented natural systems: Strengthening existing institutions (dictionaries, style guides, educational programs) with better monitoring tools and faster response capabilities. This conservative ap...",
+    "summary": "A semantic immune system ( SIS ) is a theoretical self-regulating mechanism within language communities that would automatically detect and respond to unwanted semantic drift , lexical decay , and ...",
     "type": "article",
     "category": "technology",
     "keywords": [
@@ -2209,7 +2355,7 @@
   {
     "filename": "silent-hour-1997.html",
     "title": "Silent Hour of 1997",
-    "summary": "The Mnemonic Commons Collapse Theory: Dr. Yuki Tanaka of Kyoto University proposed that the Silent Hour represented a localized failure in the mnemonic commons —the shared substrate of collective m...",
+    "summary": "The Silent Hour of 1997 (German: Stille Stunde ), also known as the Vienna Lacuna or the Institutional Blank , was a mass temporal perception anomaly that occurred on March 14, 1997, affecting an e...",
     "type": "historical_event",
     "category": "chronopsychology",
     "keywords": [
@@ -2226,16 +2372,55 @@
       "temporal continuity protocols",
       "march 14 observances",
       "categories:",
-      "consciousness archaeology",
-      "temporal debt"
+      "temporal debt",
+      "mnemonic commons"
     ],
     "inlinks": 19,
     "outlinks": 8
   },
   {
+    "filename": "sonorous-lithosorption.html",
+    "title": "Sonorous Lithosorption",
+    "summary": "Sonorous Lithosorption is a recently documented phenomenon wherein individuals experience complex auditory hallucinations triggered by the slow, cyclical absorption of geological materials – primar...",
+    "type": "article",
+    "category": "phenomenon",
+    "keywords": [
+      "sonorous",
+      "lithosorption",
+      "categories:",
+      "chromatic resonance echoes",
+      "geophony mapping",
+      "temporal lithography",
+      "lithic sensory networks",
+      "seismic echoes"
+    ],
+    "inlinks": 0,
+    "outlinks": 5
+  },
+  {
+    "filename": "spectral-echo-cartography.html",
+    "title": "Spectral Echo Cartography",
+    "summary": "Spectral Echo Cartography (SEC) posits that the residual temporal signatures of significant events, particularly those involving high-energy phenomena or concentrated emotional states, manifest as ...",
+    "type": "article",
+    "category": "theory",
+    "keywords": [
+      "spectral",
+      "echo",
+      "cartography",
+      "categories:",
+      "chrono resonance mapping",
+      "temporal distortion theory",
+      "harmonic field analysis",
+      "phase shift phenomena",
+      "the aethelgard anomaly"
+    ],
+    "inlinks": 0,
+    "outlinks": 5
+  },
+  {
     "filename": "st-petersburg-institute-for-emergency-linguistics.html",
     "title": "St. Petersburg Institute for Emergency Linguistics",
-    "summary": "Protective Semantics: Led by Dr. Petrov, this program develops meaning encryption technologies and other protective communication methods. Current projects include AI-resistant encryption systems t...",
+    "summary": "The St. Petersburg Institute for Emergency Linguistics (Russian: Санкт-Петербургский институт экстренной лингвистики , SPIEL ) is a specialized research and operational institution dedicated to the...",
     "type": "institution",
     "category": "technology",
     "keywords": [
@@ -2269,7 +2454,6 @@
       "resonance",
       "categories:",
       "meridian deep space array",
-      "hard problem of consciousness",
       "new cosmicist",
       "stellacognitive society",
       "new cosmicism"
@@ -2315,16 +2499,16 @@
       "ethics",
       "debate",
       "categories:",
-      "consciousness archaeology",
       "stratum vii",
-      "são paulo deep core incident",
-      "temporal debt controversy",
+      "consciousness archaeology",
       "mnemonic commons",
       "meaning encryption",
-      "prague institute",
       "oslo observatory",
       "babel incident",
-      "psychostrata"
+      "psychostrata",
+      "semantic anesthesia",
+      "temporal debt controversy",
+      "the babel incident"
     ],
     "inlinks": 22,
     "outlinks": 10
@@ -2358,7 +2542,7 @@
   {
     "filename": "sydney-attention-collapse.html",
     "title": "Sydney Attention Collapse of 2021",
-    "summary": "Type I - Flooding (52%): The most common presentation, characterized by simultaneous awareness of multiple meaning-demands without the ability to prioritize or sequence them. Subjects reported that...",
+    "summary": "The Sydney Attention Collapse of 2021 was a collective cognitive event that occurred between March 8 and 11, 2021, primarily affecting the central business district of Sydney, Australia. During a 7...",
     "type": "case_study",
     "category": "chronopsychology",
     "keywords": [
@@ -2445,16 +2629,15 @@
       "controversy",
       "temporal debt controversy",
       "categories:",
-      "chronolinguistics",
       "temporal debt",
       "dr. marcus chen",
-      "consciousness archaeology",
       "psychostrata",
       "semantic forensic",
-      "babel incident",
       "semantic plasticity",
       "marcus chen",
-      "semantic forensics"
+      "consciousness archaeology",
+      "semantic forensics",
+      "the babel incident"
     ],
     "inlinks": 10,
     "outlinks": 9
@@ -2488,7 +2671,7 @@
   {
     "filename": "temporal-indigeneity-debate.html",
     "title": "Temporal Indigeneity Debate",
-    "summary": "Key proponents: Dr. Marcus Chen (MIT), Dr. Elena Brandt (Berlin Centre for Linguistic Preservation)",
+    "summary": "The Temporal Indigeneity Debate is an ongoing controversy in chronolinguistics and consciousness archaeology concerning whether culturally-specific modes of temporal experience represent fundamenta...",
     "type": "debate",
     "category": "chronopsychology",
     "keywords": [
@@ -2500,12 +2683,12 @@
       "for clinical applications:",
       "temporal debt controversy",
       "chronolinguistics",
-      "consciousness archaeology",
       "dr. priya raghavan",
-      "temporal data archaeology",
+      "consciousness archaeology",
       "temporal resonance mapping",
       "chronological asymmetry",
       "temporal debt",
+      "temporal data archaeology",
       "prophetic memory"
     ],
     "inlinks": 6,
@@ -2608,9 +2791,9 @@
       "temporal contamination:",
       "false positives:",
       "categories:",
-      "consciousness archaeology",
       "echo cartography",
-      "semantic quarantine protocols"
+      "dr. ines marques",
+      "psychostrata"
     ],
     "inlinks": 23,
     "outlinks": 12
@@ -2618,7 +2801,7 @@
   {
     "filename": "temporal-rhythm-analysis.html",
     "title": "Temporal Rhythm Analysis",
-    "summary": "Temporal rhythm analysis (TRA) is a diagnostic methodology used in chronolinguistics and temporal cognition research to assess individual variations in the subjective experience of time. Unlike sin...",
+    "summary": "Duration: 45&ndash;60 minutes in controlled environment",
     "type": "methodology",
     "category": "chronopsychology",
     "keywords": [
@@ -2714,7 +2897,7 @@
       "place-specific dysphoria",
       "place specific dysphoria"
     ],
-    "inlinks": 0,
+    "inlinks": 3,
     "outlinks": 7
   },
   {
@@ -2732,13 +2915,13 @@
       "eloquent hollowing",
       "ongoing debate:",
       "categories:",
-      "automated narrative erosion",
       "digital folkloristics",
-      "semantic quarantine protocols",
       "oral tradition dynamics",
       "semantic drift",
       "semantic forensics",
-      "the babel incident"
+      "the babel incident",
+      "nadia kowalczyk",
+      "marcus chen"
     ],
     "inlinks": 11,
     "outlinks": 12
@@ -2756,15 +2939,15 @@
       "european ai research prize",
       "categories:",
       "chronolinguistics",
-      "copenhagen semantic cascade",
       "latent semantic resonance",
-      "algorithmic memory palimpsest",
-      "chronological asymmetry",
       "semantic gravity wells",
+      "chronological asymmetry",
       "consciousness archaeology",
       "nadia kowalczyk",
-      "reykjavik institute",
-      "semantic anchor extraction"
+      "semantic anchor extraction",
+      "semantic inheritance",
+      "ines marques",
+      "dr. marcus chen"
     ],
     "inlinks": 14,
     "outlinks": 11
@@ -2772,7 +2955,7 @@
   {
     "filename": "tokyo-temporal-dissonance.html",
     "title": "Tokyo Temporal Dissonance Event",
-    "summary": "Experience clustering: Individuals who knew each other and were in proximity during the event tended to report similar experiences, while strangers nearby might report radically different perceptio...",
+    "summary": "The Tokyo Temporal Dissonance Event (Japanese: 東京時間ずれ事件, Tōkyō jikan-zure jiken , lit. \"Tokyo time-shift incident\") was a mass temporal perception anomaly that occurred in the Shibuya district of T...",
     "type": "case_study",
     "category": "chronopsychology",
     "keywords": [

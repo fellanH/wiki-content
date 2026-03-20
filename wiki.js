@@ -426,7 +426,63 @@
       }
     });
 
+    // Load latest article on homepage
+    loadLatestArticle();
+
     console.log("Not-Wikipedia initialized");
+  }
+
+  /**
+   * Load and display the latest article on the homepage
+   */
+  async function loadLatestArticle() {
+    const container = document.getElementById("latest-article-content");
+    if (!container) return; // not on homepage
+
+    try {
+      const response = await fetch(BASE_PATH + "api/articles.json");
+      if (!response.ok) return;
+
+      const data = await response.json();
+      const articles = data.articles || [];
+      if (articles.length === 0) return;
+
+      // Sort by created date descending, pick newest
+      const sorted = articles.slice().sort((a, b) =>
+        (b.created || "").localeCompare(a.created || "")
+      );
+      const latest = sorted[0];
+
+      // Try to load the fragment for a rich preview
+      let fragmentHtml = "";
+      try {
+        const fragResp = await fetch(BASE_PATH + "fragments/" + latest.filename);
+        if (fragResp.ok) fragmentHtml = await fragResp.text();
+      } catch {}
+
+      if (fragmentHtml) {
+        container.innerHTML = fragmentHtml;
+      } else {
+        // Fallback: simple link with summary
+        const typeClass = "type-" + (latest.type || "article");
+        container.innerHTML =
+          '<a href="' + BASE_PATH + 'wiki/' + latest.filename + '" style="font-size:18px;font-weight:bold;">' +
+          escapeHtml(latest.title) + '</a>' +
+          ' <span class="type-badge ' + typeClass + '">' + (latest.type || "article") + '</span>' +
+          (latest.summary ? '<p style="margin:6px 0 0;color:#333;">' + escapeHtml(latest.summary) + '</p>' : '');
+      }
+
+      // Make the fragment card link clickable
+      const card = container.querySelector(".preview-card");
+      if (card) {
+        card.style.cursor = "pointer";
+        card.addEventListener("click", () => {
+          window.location.href = BASE_PATH + "wiki/" + latest.filename;
+        });
+      }
+    } catch (error) {
+      container.innerHTML = "";
+    }
   }
 
   // Initialize when DOM is ready
